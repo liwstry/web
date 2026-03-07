@@ -1,0 +1,63 @@
+from flask import request as rq, flash, redirect, url_for, render_template
+from flask_login import login_user
+from werkzeug.security import generate_password_hash, check_password_hash
+
+from setup_db.models.users_ml import Users
+from setup_db.models.base_instance import db
+
+class Auth:
+    def __init__(self):
+        pass
+    
+    def _check_user(self, email):
+        return Users.query.filter_by(email=email).first()
+    
+    def signup(self):
+        if rq.method == "POST":
+            name = rq.form.get("name")
+            last_name = rq.form.get("last_name")
+            email = rq.form.get("email")
+            password = rq.form.get("password")
+            confirm_password = rq.form.get("confirm_password")
+            
+            if password != confirm_password:
+                flash("Пароли не совпадают", "error")
+                return render_template("signup.html")
+            
+            existing_user = self._check_user(email)
+            if existing_user:
+                flash("Пользователь с таким email уже существует", "error")
+                return render_template("signup.html")
+            
+            user_add = Users(
+                name=name,
+                last_name=last_name,
+                email=email,
+                password=generate_password_hash(password, method="pbkdf2:sha256")
+            )
+            db.session.add(user_add)
+            db.session.commit()
+            
+            login_user(user_add)
+            
+            flash("Успешная регистрация", "success")
+            return redirect(url_for("profile"))
+        
+        return render_template("signup.html")
+    
+    def signin(self):
+        if rq.method == "POST":
+            email = rq.form.get("email")
+            password = rq.form.get("password")
+            
+            user = self._check_user(email)
+            
+            if user and check_password_hash(user.password, password):
+                login_user(user)
+                flash(f"Здравствуйте, {user.name}", "info")
+                return redirect(url_for("profile"))
+            else:
+                flash("Неверный email или пароль", "error")
+                return render_template("signin.html")
+        
+        return render_template("signin.html")

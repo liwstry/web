@@ -1,0 +1,10 @@
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-contacts p {
+    margin: 0.5rem 0;
+}

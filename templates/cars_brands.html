@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Марки автомобилей{% endblock %}
+
+{% block content %}
+<div class="brands-page">
+    <div class="container">
+        <h2 class="page-title">Выберите марку автомобиля</h2>
+        <div class="brands-grid">
+            {% for brand in brands %}
+
+            <div class="brand-card" onclick="window.location.href='/cars/{{ brand.slug }}'">
+                <div class="brand-logo">
+                    <img src="{{ brand.logo }}" alt="{{ brand.name }}" onerror="this.style.display='none'">
+                </div>
+                <h3 class="brand-name">{{ brand.name }}</h3>
+                <span class="model-count">{{ brand.model_count }} моделей</span>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Профиль пользователя{% endblock %}
+
+{% block content %}
+<div class="profile-container">
+    <div class="profile-header">
+        <div class="profile-avatar">
+            <div class="avatar-placeholder">
+                <span class="initials">{{user.last_name[0]}}{{user.name[0]}}</span>
+            </div>
+            <button class="btn btn-change-avatar">Сменить фото</button>
+        </div>
+        <div class="profile-info">
+            <h1 class="profile-name">{{user.last_name}} {{user.name}}</h1>
+            <p class="profile-email">{{user.email}}</p>
+            <p class="profile-joined">Зарегистрирован: {{user.date_create}}</p>
+        </div>
+    </div>
+
+    <div class="profile-content">
+        <div class="profile-section">
+            <h2>Личная информация</h2>
+            <form class="profile-form">
+                <div class="form-group">
+                    <label for="first-name">Имя</label>
+                    <input type="text" id="first-name" name="first_name" value="{{ user.name }}" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Фамилия</label>
+                    <input type="text" id="last-name" name="last_name" value="{{ user.last_name }}" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="{{ user.email }}" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" value="{{ user.phone|default('', true) }}" class="form-input">
+                </div>
+                <button type="submit" class="btn btn-save">Сохранить изменения</button>
+            </form>
+        </div>
+
+        <div class="profile-section">
+            <h2>Безопасность</h2>
+            <div class="security-options">
+                <a href="/change-password" class="btn btn-secondary">Сменить пароль</a>
+                <a href="/logout" class="btn btn-logout">Выйти из аккаунта</a>
+            </div>
+        </div>
+
+        <div class="profile-section">
+            <h2>Мои заказы</h2>
+            {% if user.orders %}
+                <div class="orders-list">
+                    {% for order in user.orders %}
+                        <div class="order-card">
+                            <div class="order-header">
+                                <span class="order-number">Заказ №{{ order.id }}</span>
+                                <span class="order-date">{{ order.date }}</span>
+                            </div>
+                            <div class="order-details">
+                                <p><strong>Автомобиль:</strong> {{ order.car_model }}</p>
+                                <p><strong>Статус:</strong> <span class="status {{ order.status }}">{{ order.status_text }}</span></p>
+                                <p><strong>Сумма:</strong> {{ order.amount }} руб.</p>
+                            </div>
+                </div>
+            {% endfor %}
+                </div>
+            {% else %}
+                <p class="no-data">У вас пока нет заказов</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

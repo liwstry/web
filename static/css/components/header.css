@@ -1,0 +1,85 @@
+.header {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    margin: 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #e74c3c;
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.user-greeting {
+    color: #2c3e50;
+    font-weight: 500;
+    margin-right: 1rem;
+    display: none; /* Скрываем на мобильных */
+}
+
+.btn-profile {
+    background: #9b59b6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-logout {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-admin {
+    background: #9b59b6;
+    color: white;
+}
+
+.btn-admin:hover,
+.btn-profile:hover,
+.btn-logout:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .user-greeting {
+        display: none;
+    }
+}

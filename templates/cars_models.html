@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{ brand_name }} - Модели{% endblock %}
+
+{% block content %}
+<div class="models-page">
+    <div class="container">
+        <div class="models-header">
+            <button class="back-btn" onclick="window.history.back()">
+                ← Назад к маркам
+            </button>
+            <h2 class="page-title">{{ brand_name }}</h2>
+        </div>
+        
+        <div class="models-grid">
+            {% for model in models %}
+            <div class="model-card">
+                <div class="model-image">
+                    <img src="{{ model.image }}" alt="{{ model.name }}" onerror="this.src='/static/images/no-image.png'">
+                </div>
+                <div class="model-info">
+                    <h3 class="model-name">{{ model.name }}</h3>
+                    <p class="model-description">{{ model.description }}</p>
+                    <div class="model-specs">
+                        <span class="price">от {{ model.price }} руб.</span>
+                        <span class="year">{{ model.year }} г.</span>
+                    </div>
+                    <a href="/cars/{{ brand_slug }}/{{ model.slug }}" class="more-details-btn">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

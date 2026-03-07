@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cars.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/header.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/flash.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/adap.css') }}">
+
+    <title>{% block title %}Автосалон{% endblock %}</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                {% if request.endpoint == 'admin' %}
+                <h1 class="admin-title">Админ-панель</h1>
+                {% else %}
+                <a href="/">
+                    <h1>АвтоМир</h1>
+                </a>
+                {% endif %}
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Главная</a></li>
+                    <li><a href="/cars_brands" class="nav-link">Автомобили</a></li>
+                    <li><a href="/services" class="nav-link">Услуги</a></li>
+                    <li><a href="/about" class="nav-link">О нас</a></li>
+                    <li><a href="/contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                {% if current_user.is_authenticated %}
+                    <span class="user-greeting"></span>
+                    {%if current_user.is_admin%}
+                        <a href="/admin" class="btn btn-admin">Админ-панель</a>
+                    {% endif %}
+                    <a href="/profile" class="btn btn-profile">Профиль</a>
+                    <a href="/logout" class="btn btn-logout">Выйти</a>
+                {% else %}
+                    <button type="button" class="btn btn-signin" onclick="window.location.href='/signin'">Войти</button>
+                    <button type="button" class="btn btn-signup" onclick="window.location.href='/signup'">Зарегистрироваться</button>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+    
+    {%with messages = get_flashed_messages(with_categories=True)%}
+        {%if messages%}
+            <div class="flash">
+                {%for c, m in messages%}
+                    <div class="flash-msg flash-{{c}}">
+                        {{m}}
+                    </div>
+                {%endfor%}
+            </div>
+        {%endif%}
+    {%endwith%}
+
+    <main class="main">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Автосалон «АвтоМир». Все права защищены.</p>
+            <div class="footer-contacts">
+                <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+                <p>Email: info@automir.ru</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
