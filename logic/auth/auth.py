@@ -4,10 +4,13 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 from setup_db.models.users_ml import Users
 from setup_db.models.base_instance import db
+from logs.setup_logs import LogSetup
+
+
 
 class Auth:
     def __init__(self):
-        pass
+        self.log = LogSetup(__file__)
     
     def _check_user(self, email):
         return Users.query.filter_by(email=email).first()
@@ -29,14 +32,20 @@ class Auth:
                 flash("Пользователь с таким email уже существует", "error")
                 return render_template("signup.html")
             
-            user_add = Users(
-                name=name,
-                last_name=last_name,
-                email=email,
-                password=generate_password_hash(password, method="pbkdf2:sha256")
-            )
-            db.session.add(user_add)
-            db.session.commit()
+            try:
+                user_add = Users(
+                    name=name,
+                    last_name=last_name,
+                    email=email,
+                    password=generate_password_hash(password, method="pbkdf2:sha256")
+                )
+                db.session.add(user_add)
+                db.session.commit()
+            except Exception as e:
+                db.session.rollback()
+                self.log.log("error", f"Ошибка при регистрации: {e}")
+                flash("Ошибка при регистрации", "error")
+                return render_template("signup.html")
             
             login_user(user_add)
             

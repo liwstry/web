@@ -21,7 +21,7 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                {% if request.endpoint == 'admin' %}
+                {% if request.endpoint == 'admin' or request.endpoint == 'admin_users' or request.endpoint == 'admin_cars' %}
                 <h1 class="admin-title">Админ-панель</h1>
                 {% else %}
                 <a href="/">

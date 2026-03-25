@@ -3,7 +3,7 @@ from flask_login import logout_user
 
 from logic.auth.auth import Auth
 from logic.profile.profile import Profile
-from logic.admin.admin_handler import AdminHandler
+from logic.admin.users_handler import UsersHandler
 
 class Routes:
     def __init__(self, app: _Flask):
@@ -11,11 +11,11 @@ class Routes:
         
         self.auth = Auth()
         self.profile_handler = Profile()
-        self.admin = AdminHandler()
+        self.admin = UsersHandler()
         
     def run_routes(self):
         
-        @self.app.route("/", methods=["get", "post"])
+        @self.app.route("/")
         def index():
             return render_template("index.html")
         
@@ -33,14 +33,16 @@ class Routes:
                 return self.auth.signup()
             return render_template("signup.html")
         
-        @self.app.route("/profile", methods=["get","post"])
+        @self.app.route("/profile", methods=["get", "post"])
         def profile():
+            if rq.method == "POST":
+                return self.profile_handler.edit_profile()
             return self.profile_handler.get_data()
         
         @self.app.route("/logout")
         def logout():
             logout_user()
-            flash("Вы вышли из аккаунта", "info")
+            flash("Вы вышли из аккаунта", "warning")
             return redirect(url_for("index"))
         
         
@@ -54,19 +56,26 @@ class Routes:
             return render_template("cars_model.html")
         
         
-        
         @self.app.route("/admin")
         def admin():
-            return self.admin.open_admin_panel()
+            return render_template("admin/admin.html")
         
-        @self.app.route("/admin-add", methods=["POST"])
+        @self.app.route("/admin/users")
+        def admin_users():
+            return self.admin.open_users_panel()
+        
+        @self.app.route("/admin/users/admin-add", methods=["POST"])
         def admin_add():
             return self.admin.create_admin()
         
-        @self.app.route("/admin-remove", methods=["post"])
+        @self.app.route("/admin/users/admin-remove", methods=["post"])
         def admin_remove():
             return self.admin.del_admin()
         
-        @self.app.route("/admin-switch", methods=["post"])
+        @self.app.route("/admin/users/admin-switch", methods=["post"])
         def admin_switch():
             return self.admin.switch_admin()
+        
+        @self.app.route("/admin/users/user-remove", methods=["post"])
+        def user_remove():
+            return self.admin.del_user()

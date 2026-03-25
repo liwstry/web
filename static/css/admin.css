@@ -184,3 +184,109 @@ body .btn-profile:hover{
         min-width: auto;
     }
 }
+
+
+
+/* Главная панель админ‑панели */
+.admin-dashboard {
+    margin-bottom: 2rem;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.dashboard-card:hover:not(.disabled) {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #3498db;
+}
+
+.dashboard-card.card-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.dashboard-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.dashboard-card p {
+    color: #7f8c8d;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.card-status {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.card-enabled .card-status {
+    background: #d4edda;
+    color: #155724;
+}
+
+.card-disabled .card-status {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* Стили для иконок состояний */
+.card-enabled .card-icon::after {
+    /* content: "✓"; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #27ae60;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-disabled .card-icon::after {
+    content: "⏳";
+    background: #f39c12;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .admin-container {
+        padding: 1rem;
+    }
+}

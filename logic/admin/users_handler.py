@@ -5,16 +5,23 @@ from setup_db.models.users_ml import Users
 from setup_db.models.base_instance import db
 from utils.check_user import check_user
 
-class AdminHandler:
-    def __init__(self):
-        pass
+class UsersHandler:
+    def _get_stats(self):
+        user_count = Users.query.count()
+        admin_count = Users.query.filter_by(is_admin=True).count()
+        users = Users.query.all()
+        return {
+            "user_count": user_count,
+            "admin_count": admin_count,
+            "users": users
+        }
     
-    def open_admin_panel(self):
+    def open_users_panel(self):
         if not current_user.is_authenticated or not current_user.is_admin:
             flash("Там ничего нет", "error")
             return redirect(url_for("index"))
         
-        return render_template("admin/admin.html", **self.get_stats())
+        return render_template("admin/users.html", **self._get_stats())
     
     def create_admin(self):
         email = rq.form.get("email")
@@ -29,7 +36,7 @@ class AdminHandler:
                 flash(f"Пользователь: {email} - назначен администратором", "success")
         else:
             flash("Неверный email", "error")
-        return redirect(url_for("admin"))
+        return redirect(url_for("admin_users"))
     
     def del_admin(self):
         email = rq.form.get("email")
@@ -44,17 +51,8 @@ class AdminHandler:
                 flash("Пользователь не является администратором", "error")
         else:
             flash("Неверный email", "error")
-        return redirect(url_for("admin"))
+        return redirect(url_for("admin_users"))
     
-    def get_stats(self):
-        user_count = Users.query.count()
-        admin_count = Users.query.filter_by(is_admin=True).count()
-        users = Users.query.all()
-        return {
-            "user_count": user_count,
-            "admin_count": admin_count,
-            "users": users
-        }
     
     def switch_admin(self):
         user_id = rq.form.get("user_id")
@@ -68,4 +66,16 @@ class AdminHandler:
                 flash(f"Права администратора сняты с пользователя: {user.email}", "success")
         else:
             flash("Пользователь не найден", "error")
-        return redirect(url_for("admin"))
+        return redirect(url_for("admin_users"))
+    
+    def del_user(self):
+        email = rq.form.get("email")
+        user = check_user(email)
+        
+        if user:
+            db.session.delete(user)
+            db.session.commit()
+            flash(f"Пользователь: {user.email} - удален", "success")
+        else:
+            flash("Пользователь не найден", "error")
+        return redirect(url_for("admin_users"))

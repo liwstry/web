@@ -3,8 +3,15 @@ from flask import Flask as _Flask
 from setup_db.models.base_instance import db
 from setup_db.models.users_ml import Users
 from setup_db.models.cars_ml import Cars
+from logs.setup_logs import LogSetup
+
+log = LogSetup(__file__)
 
 def create_db(app: _Flask):
-    db.init_app(app)
-    with app.app_context():
-        db.create_all()
+    try:
+        db.init_app(app)
+        with app.app_context():
+            db.create_all()
+    except Exception as e:
+        log.log("error", e)
+        raise e
