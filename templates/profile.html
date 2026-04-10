@@ -45,8 +45,10 @@
         <div class="profile-section">
             <h2>Безопасность</h2>
             <div class="security-options">
-                <a href="/change-password" class="btn btn-secondary">Сменить пароль</a>
-                <a href="/logout" class="btn btn-logout">Выйти из аккаунта</a>
+                <form action="/change-password" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-secondary">Сменить пароль</button>
+                </form>
+                <!-- <a href="/logout" class="btn btn-logout">Выйти из аккаунта</a> -->
             </div>
         </div>
 

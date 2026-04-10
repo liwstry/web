@@ -12,6 +12,7 @@ def create_db(app: _Flask):
         db.init_app(app)
         with app.app_context():
             db.create_all()
+            log.log("info", "База данных создана")
     except Exception as e:
         log.log("error", e)
         raise e

@@ -1,0 +1,57 @@
+{% extends "admin/admin.html" %}
+
+{% block title %}Мониторинг сервера{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/server.css') }}">
+
+<div class="admin-container">
+    <h2>Мониторинг сервера</h2>
+
+    <div class="monitor-grid">
+        <!-- Процессор -->
+        <div class="monitor-card">
+            <h3>Процессор</h3>
+            <div class="progress-bar">
+                <div class="progress" id="cpu-progress"></div>
+            </div>
+            <p><span id="cpu-value">0</span>%</p>
+        </div>
+
+        <!-- ОЗУ -->
+        <div class="monitor-card">
+            <h3>Оперативная память</h3>
+            <div class="progress-bar">
+                <div class="progress" id="memory-progress"></div>
+            </div>
+            <p><span id="memory-value">0</span>%</p>
+        </div>
+
+        <!-- Диск C -->
+        <div class="monitor-card">
+            <h3>Накопитель:</h3>
+            <div class="progress-bar">
+                <div class="progress" id="disk-c-progress"></div>
+            </div>
+            <p><span id="disk-c-value">0</span>% (<span id="disk-c-used">0</span> ГБ из <span id="disk-c-total">0</span> ГБ)</p>
+        </div>
+
+        <!-- Время работы -->
+        <div class="monitor-card">
+            <h3>Время работы сервера</h3>
+            <p id="uptime-value">Загрузка...</p>
+        </div>
+
+        <!-- Сетевой трафик -->
+        <div class="monitor-card">
+            <h3>Сетевой трафик</h3>
+            <p>Отправлено: <span id="bytes-sent">0</span> байт</p>
+            <p>Получено: <span id="bytes-recv">0</span> байт</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+<script src="{{ url_for('static', filename='js/update_server_data.js') }}"></script>
+{% endblock %}

@@ -16,10 +16,15 @@ class UsersHandler:
             "users": users
         }
     
+    def open_admin(self):
+        if not current_user.is_authenticated or not current_user.is_admin:
+            return render_template("errors/404.html")
+        
+        return render_template("admin/admin.html", **self._get_stats())
+    
     def open_users_panel(self):
         if not current_user.is_authenticated or not current_user.is_admin:
-            flash("Там ничего нет", "error")
-            return redirect(url_for("index"))
+            return render_template("errors/404.html")
         
         return render_template("admin/users.html", **self._get_stats())
     

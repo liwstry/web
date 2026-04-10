@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
@@ -29,6 +30,22 @@
                 </a>
                 {% endif %}
             </div>
+
+            <div class="weather-widget">
+            {%if weather%}
+                <div class="weather-info">
+                    <span class="weather-city">{{ weather["city"] }}</span>
+                    {%if weather.temp <= 0%}
+                        <span class="weather-temp-cold">{{ weather["temp"] }}°C</span>
+                    {%else%}
+                        <span class="weather-temp">{{ weather["temp"] }}°C</span>
+                    {%endif%}
+                </div>
+            {%else%}
+                <span class="weather-error">Загрузка погоды...</span>
+            {%endif%}
+            </div>
+
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="/" class="nav-link">Главная</a></li>
@@ -79,5 +96,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='js/update_handler.js') }}"></script>
 </body>
 </html>

@@ -1,17 +1,25 @@
-from flask import Flask as _Flask, render_template, request as rq, flash, redirect, url_for
+from flask import render_template, request as rq, flash, redirect, url_for
+# from flask_socketio import emit
 from flask_login import logout_user
 
-from logic.auth.auth import Auth
-from logic.profile.profile import Profile
-from logic.admin.users_handler import UsersHandler
+from flask import Flask as _Flask
+from flask_socketio import SocketIO as _SocketIO
+from flask_mail import Mail as _Mail
+from itsdangerous import URLSafeTimedSerializer as _URLSafeTimedSerializer
+
+from logic.pages.auth.auth import Auth
+from logic.pages.profile.profile import Profile
+from logic.pages.admin.users_handler import UsersHandler
+from logic.services.change_password.change_password import ChangePassword
 
 class Routes:
-    def __init__(self, app: _Flask):
+    def __init__(self, app: _Flask, socketio: _SocketIO, mail: _Mail, token: _URLSafeTimedSerializer):
         self.app = app
         
         self.auth = Auth()
         self.profile_handler = Profile()
         self.admin = UsersHandler()
+        self.change_password = ChangePassword(app, mail, token)
         
     def run_routes(self):
         
@@ -39,6 +47,14 @@ class Routes:
                 return self.profile_handler.edit_profile()
             return self.profile_handler.get_data()
         
+        @self.app.route("/change-password", methods=["post"])
+        def change_password_link():
+            return self.change_password.gen_url_token()
+        
+        @self.app.route("/change-password/<token>", methods=["get", "post"])
+        def change_password(token):
+            return self.change_password.change_password(token)
+        
         @self.app.route("/logout")
         def logout():
             logout_user()
@@ -58,7 +74,11 @@ class Routes:
         
         @self.app.route("/admin")
         def admin():
-            return render_template("admin/admin.html")
+            return self.admin.open_admin()
+        
+        @self.app.route("/admin/server")
+        def server():
+            return render_template("admin/server.html")
         
         @self.app.route("/admin/users")
         def admin_users():

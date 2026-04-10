@@ -11,6 +11,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+    flex-wrap: nowrap;
+    gap: 15px;
 }
 
 .logo h1 {
@@ -18,6 +20,11 @@
     color: #e74c3c;
     margin: 0;
 }
+
+/* .nav {
+    flex: 1 1 auto;
+    min-width: 250px;
+} */
 
 .nav-list {
     display: flex;
@@ -36,8 +43,10 @@
 }
 
 .header-actions {
+    flex: 0 0 auto;
     display: flex;
     gap: 10px;
+    white-space: nowrap;
 }
 
 .user-greeting {
@@ -76,6 +85,58 @@
 .btn-profile:hover,
 .btn-logout:hover {
     opacity: 0.9;
+}
+
+.weather-widget {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 15px;
+    border-left: 1px solid #ddd;
+    flex: 0 0 160px;
+}
+
+.weather-info {
+    /* display: flex;
+    flex-direction: column;
+    text-align: right; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.weather-city {
+    font-weight: bold;
+    color: #333;
+}
+
+.weather-temp {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.weather-temp-cold {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.weather-desc {
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.weather-error {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .weather-widget {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
