@@ -1,0 +1,6 @@
+2026-04-11 04:23:18 - CRITICAL - [app.py] - Ошибка инициализации компонента: Routes.__init__() missing 4 required positional arguments: 'app', 'socketio', 'mail', and 'token'
+2026-04-11 04:29:21 - CRITICAL - [app.py] - Ошибка инициализации компонента: Routes.__init__() takes 4 positional arguments but 5 were given
+2026-04-11 04:29:36 - CRITICAL - [app.py] - Ошибка инициализации компонента: 'Routes' object has no attribute 'socketio'
+2026-04-11 04:30:42 - CRITICAL - [app.py] - Ошибка инициализации компонента: 'Routes' object has no attribute 'socketio'
+2026-04-11 04:57:07 - CRITICAL - [app.py] - Ошибка инициализации компонента: Routes.__init__() missing 4 required positional arguments: 'app', 'socketio', 'mail', and 'token'
+2026-04-11 05:36:29 - CRITICAL - [app.py] - Ошибка инициализации компонента: Routes.__init__() missing 4 required positional arguments: 'app', 'socketio', 'mail', and 'token'

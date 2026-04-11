@@ -1,6 +1,6 @@
 from sqlalchemy import func
 
-from setup_db.models.base_instance import db
+from database.setup_db.models.base_instance import db
 
 class Users(db.Model):
     id = db.Column(db.Integer, primary_key=True)

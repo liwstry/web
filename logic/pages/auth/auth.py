@@ -2,8 +2,8 @@ from flask import request as rq, flash, redirect, url_for, render_template
 from flask_login import login_user
 
 from utils.hash_password import create_hash_password, check_hash_password
-from setup_db.models.users_ml import Users
-from setup_db.models.base_instance import db
+from database.setup_db.models.users_ml import Users
+from database.setup_db.models.base_instance import db
 from logs.setup_logs import LogSetup
 
 

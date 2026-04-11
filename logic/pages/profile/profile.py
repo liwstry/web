@@ -1,8 +1,8 @@
 from flask import Flask as _Flask, render_template, redirect, url_for, request as rq, flash
 from flask_login import current_user
 
-from setup_db.models.base_instance import db
-from setup_db.models.users_ml import Users
+from database.setup_db.models.base_instance import db
+from database.setup_db.models.users_ml import Users
 from utils.check_user import check_user
 from logs.setup_logs import LogSetup
 

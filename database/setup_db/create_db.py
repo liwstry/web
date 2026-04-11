@@ -1,8 +1,8 @@
 from flask import Flask as _Flask
 
-from setup_db.models.base_instance import db
-from setup_db.models.users_ml import Users
-from setup_db.models.cars_ml import Cars
+from database.setup_db.models.base_instance import db
+from database.setup_db.models.users_ml import Users
+from database.setup_db.models.cars_ml import Cars
 from logs.setup_logs import LogSetup
 
 log = LogSetup(__file__)

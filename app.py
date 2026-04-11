@@ -4,11 +4,15 @@ from flask_login import LoginManager
 from flask_mail import Mail
 from itsdangerous import URLSafeTimedSerializer
 
-from routes import Routes
+from routes.routes_init import Routes
+
 from config import Config
-from setup_db.create_db import create_db
-from setup_db.models.users_ml import Users
+
+from database.setup_db.create_db import create_db
+from database.setup_db.models.users_ml import Users
+
 from logs.setup_logs import LogSetup
+
 from realtime_sockets.server_socket import ServerSocket
 from realtime_sockets.weather_socket import WeatherSocket
 
@@ -19,6 +23,7 @@ log.log("info", "Инициализация основных компонент�
 try:
     app = Flask(__name__)
     app.config.from_object(Config())
+    
     socketio = SocketIO(app)
     
     lm = LoginManager()
@@ -53,14 +58,14 @@ if __name__ == "__main__":
     server.run()
     
     
-    log.log("info", "Приложение запущено")
+    log.log("info", "Запуск сервера")
     
     try:
         socketio.run(app, debug=True)
     
     except Exception as e:
-        log.log("critical", f"Ошибка при работе приложения: {e}")
+        log.log("critical", f"Ошибка при работе сервера: {e}")
         print(e)
         exit(1)
     finally:
-        log.log("info", "Приложение остановлено")
+        log.log("info", "Сервер остановлено")

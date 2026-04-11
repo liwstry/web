@@ -1,4 +1,4 @@
-from setup_db.models.base_instance import db
+from database.setup_db.models.base_instance import db
 
 class Cars(db.Model):
     id = db.Column(db.Integer, primary_key=True)

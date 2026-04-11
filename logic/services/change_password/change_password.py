@@ -10,8 +10,8 @@ from itsdangerous import URLSafeTimedSerializer as _URLSafeTimedSerializer
 
 from logic.services.email.send_to_email import send_to_email
 from logs.setup_logs import LogSetup
-from setup_db.models.base_instance import db
-from setup_db.models.users_ml import Users
+from database.setup_db.models.base_instance import db
+from database.setup_db.models.users_ml import Users
 from utils.hash_password import create_hash_password
 
 class ChangePassword:

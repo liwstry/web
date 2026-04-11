@@ -1,8 +1,8 @@
 from flask import request as rq, flash, redirect, url_for, render_template
 from flask_login import current_user
 
-from setup_db.models.users_ml import Users
-from setup_db.models.base_instance import db
+from database.setup_db.models.users_ml import Users
+from database.setup_db.models.base_instance import db
 from utils.check_user import check_user
 
 class UsersHandler:
