@@ -5,13 +5,11 @@ from flask_mail import Mail
 from itsdangerous import URLSafeTimedSerializer
 
 from routes.routes_init import Routes
-
 from config import Config
+from logs.setup_logs import LogSetup
 
 from database.setup_db.create_db import create_db
 from database.setup_db.models.users_ml import Users
-
-from logs.setup_logs import LogSetup
 
 from realtime_sockets.server_socket import ServerSocket
 from realtime_sockets.weather_socket import WeatherSocket
@@ -53,7 +51,7 @@ def load_user(user_id):
 if __name__ == "__main__":
     server = ServerSocket(socketio)
     weather = WeatherSocket(socketio)
-    
+
     weather.run()
     server.run()
     

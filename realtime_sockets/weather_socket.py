@@ -1,7 +1,6 @@
 from flask_socketio import SocketIO as _SocketIO
 
 import time
-from threading import Thread
 
 from logic.api.OpenWeatherMap.weather import OpenWeatherAPI
 

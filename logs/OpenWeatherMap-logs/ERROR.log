@@ -99,3 +99,7 @@
 2026-04-11 05:47:35 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
 2026-04-11 05:47:37 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
 2026-04-11 05:47:39 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:22:16 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:22:17 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:51:09 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:51:09 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)

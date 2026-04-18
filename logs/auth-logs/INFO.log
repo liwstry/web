@@ -46,3 +46,9 @@
 2026-04-11 05:37:30 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
 2026-04-11 05:42:17 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
 2026-04-11 05:42:18 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-15 08:17:41 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-15 08:17:42 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-15 10:28:34 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-15 10:28:35 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-18 10:30:05 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-18 10:30:06 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован

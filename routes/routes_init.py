@@ -1,10 +1,12 @@
-from flask import render_template, request as rq, flash, redirect, url_for
-from flask_login import logout_user
-
 from flask import Flask as _Flask
 from flask_socketio import SocketIO as _SocketIO
 from flask_mail import Mail as _Mail
 from itsdangerous import URLSafeTimedSerializer as _URLSafeTimedSerializer
+
+
+
+from flask import render_template, request as rq, flash, redirect, url_for
+from flask_login import logout_user
 
 from logic.pages.auth.auth import Auth
 from logic.pages.profile.profile import Profile

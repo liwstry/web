@@ -1,4 +1,6 @@
-from flask_mail import Message, Mail as _Mail
+from flask_mail import Mail as _Mail
+
+from flask_mail import Message
 
 from logs.setup_logs import LogSetup
 

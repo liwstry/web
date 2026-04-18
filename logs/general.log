@@ -47,3 +47,55 @@
 2026-04-11 05:47:39 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
 2026-04-11 05:47:41 - INFO - [app.py] - Сервер остановлено
 2026-04-11 05:47:41 - INFO - [app.py] - Сервер остановлено
+2026-04-15 08:17:31 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-15 08:17:31 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-15 08:17:31 - INFO - [app.py] - Запуск сервера
+2026-04-15 08:17:32 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-15 08:17:32 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-15 08:17:32 - INFO - [app.py] - Запуск сервера
+2026-04-15 08:17:41 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-15 08:17:42 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-15 08:22:16 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:22:17 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:36:56 - INFO - [app.py] - Сервер остановлено
+2026-04-15 08:36:56 - INFO - [app.py] - Сервер остановлено
+2026-04-15 08:48:28 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-15 08:48:29 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-15 08:48:29 - INFO - [app.py] - Запуск сервера
+2026-04-15 08:48:29 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-15 08:48:29 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-15 08:48:29 - INFO - [app.py] - Запуск сервера
+2026-04-15 08:51:09 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:51:09 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-15 08:51:30 - INFO - [app.py] - Сервер остановлено
+2026-04-15 08:51:31 - INFO - [app.py] - Сервер остановлено
+2026-04-15 10:28:19 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-15 10:28:19 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-15 10:28:19 - INFO - [app.py] - Запуск сервера
+2026-04-15 10:28:20 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-15 10:28:20 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-15 10:28:20 - INFO - [app.py] - Запуск сервера
+2026-04-15 10:28:34 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-15 10:28:35 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-15 10:32:16 - INFO - [logic\services\email\send_to_email.py] - Сообщение отправлено на почту: ['liwstry5@gmail.com']
+2026-04-15 10:32:16 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-15 10:37:22 - INFO - [app.py] - Сервер остановлено
+2026-04-15 10:37:22 - INFO - [app.py] - Сервер остановлено
+2026-04-16 13:51:58 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-16 13:51:58 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-16 13:51:58 - INFO - [app.py] - Запуск сервера
+2026-04-16 13:51:59 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-16 13:51:59 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-16 13:51:59 - INFO - [app.py] - Запуск сервера
+2026-04-16 13:52:00 - INFO - [app.py] - Сервер остановлено
+2026-04-16 13:52:00 - INFO - [app.py] - Сервер остановлено
+2026-04-18 10:29:53 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-18 10:29:54 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-18 10:29:54 - INFO - [app.py] - Запуск сервера
+2026-04-18 10:29:54 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-18 10:29:54 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-18 10:29:54 - INFO - [app.py] - Запуск сервера
+2026-04-18 10:30:05 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-18 10:30:06 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-18 10:36:55 - INFO - [app.py] - Сервер остановлено
+2026-04-18 10:36:55 - INFO - [app.py] - Сервер остановлено

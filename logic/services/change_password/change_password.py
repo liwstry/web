@@ -1,12 +1,13 @@
+from flask import Flask as _Flask
+from flask_mail import Mail as _Mail
+from itsdangerous import URLSafeTimedSerializer as _URLSafeTimedSerializer
+
+
+
 from flask import request as rq, flash, redirect, url_for, render_template
 from flask_login import current_user
 from itsdangerous import SignatureExpired
 
-# Для аннотации
-from flask import Flask as _Flask
-from flask_mail import Mail as _Mail
-from itsdangerous import URLSafeTimedSerializer as _URLSafeTimedSerializer
-###############
 
 from logic.services.email.send_to_email import send_to_email
 from logs.setup_logs import LogSetup
