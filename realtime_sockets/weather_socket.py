@@ -7,18 +7,18 @@ from logic.api.OpenWeatherMap.weather import OpenWeatherAPI
 class WeatherSocket:
     def __init__(self, socketio: _SocketIO):
         self.socketio = socketio
-        self.weather = OpenWeatherAPI()
+        self.weather = OpenWeatherAPI("Москва")
 
     def run_weather_socket(self):
         @self.socketio.on("get_weather")
         def weather():
-            self.socketio.emit("weather_update", self.weather.get_weather("Москва"))
+            self.socketio.emit("weather_update", self.weather.get_weather())
 
     def _weather_update(self):
         while True:
-            self.socketio.emit("weather_update", self.weather.get_weather("Москва"))
+            self.socketio.emit("weather_update", self.weather.get_weather())
             time.sleep(60)
     
     def run(self):
         self.run_weather_socket()
-        self.socketio.start_background_task(target=self._weather_update)
+        # self.socketio.start_background_task(target=self._weather_update)

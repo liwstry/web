@@ -37,10 +37,10 @@
 # from threading import Thread
 # from time import sleep
 
-from logic.api.OpenWeatherMap.weather import OpenWeatherAPI
+# from logic.api.OpenWeatherMap.weather import OpenWeatherAPI
 
-inst = OpenWeatherAPI()
-print(inst.get_weather("Москва"))
+# inst = OpenWeatherAPI()
+# print(inst.get_weather("Москва"))
 
 # import requests as rq
 # from config import Config
@@ -57,3 +57,7 @@ print(inst.get_weather("Москва"))
 #     print(data)
 #     temp = data["main"]["temp"]
 #     print(temp)
+
+
+num = 7.4
+print(round(num))

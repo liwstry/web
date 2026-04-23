@@ -1,24 +1,41 @@
 {% extends "base.html" %}
 
-{% block title %}Марки автомобилей{% endblock %}
+{% block title %}Выбор автомобиля{% endblock %}
 
 {% block content %}
-<div class="brands-page">
-    <div class="container">
-        <h2 class="page-title">Выберите марку автомобиля</h2>
-        <div class="brands-grid">
-            {% for brand in brands %}
+<div class="container">
+    <h1>Выберите автомобиль</h1>
 
-            <div class="brand-card" onclick="window.location.href='/cars/{{ brand.slug }}'">
-                <div class="brand-logo">
-                    <img src="{{ brand.logo }}" alt="{{ brand.name }}" onerror="this.style.display='none'">
-                </div>
-                <h3 class="brand-name">{{ brand.name }}</h3>
-                <span class="model-count">{{ brand.model_count }} моделей</span>
-            </div>
-
-            {% endfor %}
+    <form method="POST" action="{{ url_for('cars_brands') }}" class="car-selection-form">
+        <div class="form-group">
+            <label for="brand">Марка:</label>
+            <select name="brand" id="brand" class="select-input" onchange="this.form.submit()">
+                <option value="">Выберите марку</option>
+                {% for brand in brands %}
+                    <option value="{{ brand }}"
+                        {% if selected_brand == brand %}selected{% endif %}>
+                        {{ brand }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
-    </div>
+
+        <div class="form-group">
+            <label for="model">Модель:</label>
+            <select name="model" id="model" class="select-input">
+                <option value="">Все модели</option>
+                {% if brand_models.get(selected_brand) %}
+                    {% for model in brand_models[selected_brand] %}
+                        <option value="{{ model }}"
+                            {% if selected_model == model %}selected{% endif %}>
+                            {{ model }}
+                        </option>
+                    {% endfor %}
+                {% endif %}
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Найти</button>
+    </form>
 </div>
 {% endblock %}

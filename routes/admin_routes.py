@@ -31,3 +31,8 @@ class AdminRoutes(Routes):
         @self.app.route("/admin/users/user-remove", methods=["post"])
         def user_remove():
             return self.admin.del_user()
+        
+        
+        @self.app.route("/admin/add_cars", methods=["get", "post"])
+        def add_cars():
+            return self.add_car.add_car()

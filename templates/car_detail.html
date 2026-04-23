@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}{{ car.brand }} {{ car.model }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="car-detail">
+        <div class="car-gallery">
+            {% if car.image %}
+                <img src="{{ car.image }}" alt="{{ car.brand }} {{ car.model }}" class="main-image">
+            {% else %}
+                <div class="main-image placeholder">Изображение отсутствует</div>
+            {% endif %}
+        </div>
+
+        <div class="car-specs">
+            <h1>{{ car.brand }} {{ car.model }}</h1>
+            
+            <div class="spec-group">
+                <h3>Основные характеристики</h3>
+                <ul class="specs-list">
+                    <li><strong>Страна:</strong> {{ car.country }}</li>
+                    <li><strong>Год выпуска:</strong> {{ car.release_year }}</li>
+                    <li><strong>Цвет:</strong> {{ car.color }}</li>
+                    <li><strong>Тип кузова:</strong> {{ car.type_body }}</li>
+                    <li><strong>Трансмиссия:</strong> {{ car.transsmission }}</li>
+                </ul>
+            </div>
+
+            <div class="spec-group">
+                <h3>Двигатель</h3>
+                <ul class="specs-list">
+                    <li><strong>Объём:</strong> {{ car.engine_volume }} л</li>
+                    <li><strong>Мощность:</strong> {{ car.engine_power }} л.с.</li>
+                </ul>
+            </div>
+
+            <div class="spec-group">
+                <h3>Дополнительная информация</h3>
+                <ul class="specs-list">
+                    <li><strong>Пробег:</strong> {{ car.mileage }} км</li>
+                    <li><strong>Цена:</strong> <span class="price">{{ car.price_formatted() }} руб.</span></li>
+                </ul>
+            </div>
+
+            <div class="detail-actions">
+                <a href="{{ url_for('cars_list', brand=car.brand, model=car.model) }}" class="btn btn-back">Назад к списку</a>
+                <button class="btn btn-contact">Приобрести</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

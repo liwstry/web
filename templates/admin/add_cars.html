@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Добавление автомобиля — Админ‑панель{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+
+<div class="admin-container">
+    <h2>Добавление нового автомобиля</h2>
+
+    <form method="POST" action="{{ url_for('add_cars') }}" class="admin-form" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="country">Страна производства:</label>
+            <input type="text" id="country" name="country" required placeholder="Например: Япония, Германия">
+        </div>
+
+        <div class="form-group">
+            <label for="brand">Марка:</label>
+            <input type="text" id="brand" name="brand" required placeholder="Например: Toyota">
+        </div>
+
+        <div class="form-group">
+            <label for="model">Модель:</label>
+            <input type="text" id="model" name="model" required placeholder="Например: Camry">
+        </div>
+
+        <div class="form-group">
+            <label for="release_year">Год выпуска:</label>
+            <input type="number" id="release_year" name="release_year" min="1900" max="2030" required placeholder="2020">
+        </div>
+
+        <div class="form-group">
+            <label for="color">Цвет:</label>
+            <input type="text" id="color" name="color" required placeholder="Например: Серебристый">
+        </div>
+
+        <div class="form-group">
+            <label for="type_body">Тип кузова:</label>
+            <input type="text" id="type_body" name="type_body" required placeholder="Например: Седан, Внедорожник">
+        </div>
+
+        <div class="form-group">
+            <label for="transmission">Коробка передач:</label>
+            <select id="transmission" name="transmission" required>
+                <option value="">Выберите тип</option>
+                <option value="Автоматическая">Автоматическая</option>
+                <option value="Механическая">Механическая</option>
+                <option value="Роботизированная">Роботизированная</option>
+                <option value="Вариатор">Вариатор</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="engine_volume">Объём двигателя (л):</label>
+            <input type="number" id="engine_volume" name="engine_volume" step="0.1" min="0" required placeholder="1.8">
+        </div>
+
+        <div class="form-group">
+            <label for="engine_power">Мощность двигателя (л.с.):</label>
+            <input type="number" id="engine_power" name="engine_power" min="0" required placeholder="150">
+        </div>
+
+        <div class="form-group">
+            <label for="mileage">Пробег (км):</label>
+            <input type="number" id="mileage" name="mileage" min="0" required placeholder="150000">
+        </div>
+
+        <div class="form-group">
+            <label for="price">Цена (руб.):</label>
+            <input type="number" id="price" name="price" step="0.01" min="0" required placeholder="1500000.50">
+        </div>
+
+        <div class="form-group">
+            <label for="type_body">Фото автомобиля:</label>
+            <input type="text" id="type_body" name="image" required placeholder="Ссылка на фото">
+        </div>
+
+        <!-- <div class="form-group">
+            <label for="image">Фото автомобиля:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+        </div> -->
+
+        <div class="form-actions">
+            <button type="submit" class="btn-primary">Добавить автомобиль</button>
+            <a href="/admin" class="btn-secondary">Отмена</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

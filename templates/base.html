@@ -15,14 +15,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/components/flash.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/components/adap.css') }}">
 
+    <!-- {% if request.endpoint.startswith('admin') %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+    {% endif %} -->
+
     <title>{% block title %}Автосалон{% endblock %}</title>
 </head>
-<body>
+<body class="{% if request.endpoint.startswith('admin') %}admin-page{% endif %}">
     
     <header class="header">
         <div class="container">
             <div class="logo">
-                {% if request.endpoint == 'admin' or request.endpoint == 'admin_users' or request.endpoint == 'admin_cars' %}
+                {%
+                    if request.endpoint == 'admin' or request.endpoint == 'admin_users' or request.endpoint == 'admin_cars' or
+                    request.endpoint == 'server' or request.endpoint == 'add_cars' %}
                 <h1 class="admin-title">Админ-панель</h1>
                 {% else %}
                 <a href="/">
@@ -59,7 +65,7 @@
                 {% if current_user.is_authenticated %}
                     <span class="user-greeting"></span>
                     {%if current_user.is_admin%}
-                        <a href="/admin" class="btn btn-admin">Админ-панель</a>
+                        <a href="/admin" class="btn btn-profile">Админ-панель</a>
                     {% endif %}
                     <a href="/profile" class="btn btn-profile">Профиль</a>
                     <a href="/logout" class="btn btn-logout">Выйти</a>

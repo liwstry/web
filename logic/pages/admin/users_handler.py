@@ -7,11 +7,13 @@ from utils.check_user import check_user
 
 class UsersHandler:
     def _get_stats(self):
-        user_count = Users.query.count()
+        all_users = Users.query.count()
+        users_count = Users.query.filter_by(is_admin=False).count()
         admin_count = Users.query.filter_by(is_admin=True).count()
         users = Users.query.all()
         return {
-            "user_count": user_count,
+            "all_users": all_users,
+            "users_count": users_count,
             "admin_count": admin_count,
             "users": users
         }

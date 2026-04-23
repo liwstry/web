@@ -18,5 +18,4 @@ class Config():
     MAIL_USERNAME = os.getenv("EMAIL_ADDRESS")
     MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
     MAIL_DEFAULT_SENDER = os.getenv("EMAIL_ADDRESS")
-    
     API_TOKEN_WEATHER = os.getenv("API_TOKEN_WEATHER")
