@@ -1217,3 +1217,886 @@
 2026-04-22 11:03:53 - INFO - [app.py] - Инициализация основных компонентов приложения
 2026-04-22 11:03:53 - INFO - [database\setup_db\create_db.py] - База данных создана
 2026-04-22 11:03:53 - INFO - [app.py] - Запуск сервера
+2026-04-23 06:26:54 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 06:26:54 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 06:26:54 - INFO - [app.py] - Запуск сервера
+2026-04-23 06:26:55 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 06:26:55 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 06:26:55 - INFO - [app.py] - Запуск сервера
+2026-04-23 06:32:48 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-23 07:21:00 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:21:00 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:21:01 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:21:02 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:21:02 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:21:02 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:21:02 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:21:02 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:21:05 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:21:05 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:42:22 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:42:22 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:42:22 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:42:23 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:42:23 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:42:23 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:42:57 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 07:42:58 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 07:43:03 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:43:03 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:43:05 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:43:05 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:43:05 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:43:06 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:43:06 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:43:06 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:44:39 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:44:39 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:49:15 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:49:15 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:49:15 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:49:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:49:16 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:49:16 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:49:38 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 07:49:39 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 07:49:50 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:49:51 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:50:00 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:50:00 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:50:00 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:50:00 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:50:01 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:50:01 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:50:15 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:50:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:50:16 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:50:16 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:51:58 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:51:59 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:51:59 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:51:59 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:52:08 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:52:09 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:52:09 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:52:09 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:53:15 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:53:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:53:16 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:53:16 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:53:37 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:53:38 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:53:38 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:53:38 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:53:54 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:53:54 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:53:55 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:53:55 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:54:09 - INFO - [app.py] - Сервер остановлено
+2026-04-23 07:54:10 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 07:54:10 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 07:54:10 - INFO - [app.py] - Запуск сервера
+2026-04-23 07:54:15 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 07:54:16 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 08:00:59 - INFO - [app.py] - Сервер остановлено
+2026-04-23 08:00:59 - INFO - [app.py] - Сервер остановлено
+2026-04-23 09:16:13 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 09:16:13 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 09:16:13 - INFO - [app.py] - Запуск сервера
+2026-04-23 09:16:14 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 09:16:14 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 09:16:14 - INFO - [app.py] - Запуск сервера
+2026-04-23 09:16:37 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x19b45cbe5a0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 09:21:37 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x19b45cbe300>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 09:26:37 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x19b45cbec00>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 09:35:21 - INFO - [app.py] - Сервер остановлено
+2026-04-23 09:35:21 - INFO - [app.py] - Сервер остановлено
+2026-04-23 09:35:23 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 09:35:23 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 09:35:23 - INFO - [app.py] - Запуск сервера
+2026-04-23 09:35:24 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 09:35:24 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 09:35:24 - INFO - [app.py] - Запуск сервера
+2026-04-23 09:35:43 - INFO - [app.py] - Сервер остановлено
+2026-04-23 09:35:43 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:42:27 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:42:27 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:42:27 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:42:28 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:42:28 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:42:28 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:42:51 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e1a9640>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:43:11 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e1c8650>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:43:17 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e19d640>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:13 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e173b30>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:16 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e1bf830>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:17 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e1bf380>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:30 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e1e4e30>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:42 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e1e5d30>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:45 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e0c2bd0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:47 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e08b980>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:44:52 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8e0c22a0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:46:42 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:46:43 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:51:06 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:51:07 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:51:07 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:51:07 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:51:07 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:51:07 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:51:10 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 13:51:11 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 13:51:30 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x295d43ac3b0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:51:32 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x295d440a840>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:53:09 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:53:10 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:53:10 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:53:10 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:53:32 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x1ca9efd1e50>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:54:22 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:54:23 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:54:23 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:54:23 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:54:43 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:54:44 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:54:44 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:54:44 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:54:52 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:54:53 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:54:53 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:54:53 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:55:02 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:55:02 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:55:03 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:55:03 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:55:25 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x26313ca1c40>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:55:28 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:55:29 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:55:29 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:55:29 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:55:38 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:55:39 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:55:39 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:55:39 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:55:46 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:55:47 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:55:47 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:55:47 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:56:03 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:56:04 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:56:04 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:56:04 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:56:27 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x1ff91ae2210>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:56:33 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x1ff91ae2f30>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-23 13:59:05 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:59:06 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:59:06 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:59:06 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:59:29 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:59:30 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:59:30 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:59:30 - INFO - [app.py] - Запуск сервера
+2026-04-23 13:59:57 - INFO - [app.py] - Сервер остановлено
+2026-04-23 13:59:58 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 13:59:58 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 13:59:58 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:00:02 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:00:03 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:00:03 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:00:03 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:01:26 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:01:27 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:01:27 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:01:27 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:01:27 - INFO - [app.py] - Запуск остановлен
+2026-04-23 14:01:27 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:06:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:06:16 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:16 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:16 - INFO - [app.py] - Запуск остановлен
+2026-04-23 14:06:22 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:06:23 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:23 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:23 - INFO - [app.py] - Запуск остановлен
+2026-04-23 14:07:45 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:07:45 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:07:45 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:07:45 - INFO - [app.py] - Запуск остановлен
+2026-04-23 14:09:48 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:09:48 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:09:48 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:09:49 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:10:27 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:10:27 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:10:27 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:10:27 - INFO - [app.py] - Запуск остановлен
+2026-04-23 14:11:49 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:11:49 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:11:49 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:11:50 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:11:50 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:11:50 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:21:05 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:21:06 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:21:06 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:21:06 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:21:46 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:21:47 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:21:47 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:21:47 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:21:56 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:21:57 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:21:57 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:21:57 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:22:36 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:22:37 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:22:37 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:22:37 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:28:11 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:28:12 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:28:12 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:28:12 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:28:31 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:28:32 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:28:32 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:28:32 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:30:44 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:30:45 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:30:45 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:30:45 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:31:51 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:31:51 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:31:51 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:31:51 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:32:08 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:32:09 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:38:42 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:38:42 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:38:42 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:38:43 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:38:43 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:38:43 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:38:56 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:38:57 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:38:57 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:38:57 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:39:04 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:39:05 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:39:05 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:39:05 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:39:37 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:39:38 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:39:38 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:39:38 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:39:54 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:39:55 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:40:14 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:40:14 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:40:14 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:40:15 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:40:15 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:40:15 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:40:38 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:40:39 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:40:39 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:40:39 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:40:52 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:40:53 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:40:53 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:40:53 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:41:36 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:41:37 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:41:37 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:41:37 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:42:04 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:42:05 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:42:05 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:42:05 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:42:49 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:42:49 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:42:51 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:42:51 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:42:51 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:42:52 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:42:52 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:42:52 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:43:35 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:43:36 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:43:36 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:43:36 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:43:43 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:43:44 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:43:44 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:43:44 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:43:55 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:43:56 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:43:56 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:43:56 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:49:25 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:49:26 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:49:26 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:49:26 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:50:28 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:50:29 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:50:29 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:50:29 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:55:30 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:55:31 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:55:31 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:55:31 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:56:17 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 14:56:18 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 14:57:08 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:57:09 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:57:09 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:57:09 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:57:18 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 14:57:18 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 14:57:42 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:57:43 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:57:43 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:57:43 - INFO - [app.py] - Запуск сервера
+2026-04-23 14:58:13 - INFO - [app.py] - Сервер остановлено
+2026-04-23 14:58:14 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 14:58:14 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 14:58:14 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:09:43 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:09:44 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:09:45 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:09:45 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:10:09 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:10:10 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:10:10 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:10:10 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:12:16 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 15:12:17 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 15:13:17 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:13:18 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:13:18 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:13:18 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:13:38 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:13:39 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:13:39 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:13:39 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:23:46 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-23 15:34:23 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:34:24 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:35:33 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:35:33 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:35:33 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:35:34 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:35:34 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:35:34 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:36:19 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:36:20 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:36:20 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:36:20 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:36:39 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:36:40 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:36:40 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:36:40 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:36:55 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:36:56 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:36:56 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:36:56 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:37:15 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:37:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:37:16 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:37:16 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:37:29 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:37:30 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-23 15:37:30 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-23 15:37:30 - INFO - [app.py] - Запуск сервера
+2026-04-23 15:38:19 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 15:38:20 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 15:38:47 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-23 15:38:58 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-23 15:38:59 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-23 15:39:03 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Read timed out. (read timeout=None)
+2026-04-23 15:39:13 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-23 15:39:14 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-23 15:39:32 - INFO - [app.py] - Сервер остановлено
+2026-04-23 15:39:32 - INFO - [app.py] - Сервер остановлено
+2026-04-24 05:12:02 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 05:12:02 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 05:12:02 - INFO - [app.py] - Запуск сервера
+2026-04-24 05:12:03 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 05:12:03 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 05:12:03 - INFO - [app.py] - Запуск сервера
+2026-04-24 05:12:22 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-24 05:12:23 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-24 05:51:13 - INFO - [app.py] - Сервер остановлено
+2026-04-24 05:51:14 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 05:51:14 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 05:51:15 - INFO - [app.py] - Запуск сервера
+2026-04-24 05:51:35 - INFO - [app.py] - Сервер остановлено
+2026-04-24 05:51:35 - INFO - [app.py] - Сервер остановлено
+2026-04-24 06:15:58 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 06:15:58 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 06:15:58 - INFO - [app.py] - Запуск сервера
+2026-04-24 06:15:59 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 06:15:59 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 06:15:59 - INFO - [app.py] - Запуск сервера
+2026-04-24 06:18:10 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-24 06:18:11 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) зарегистрирован
+2026-04-24 06:19:22 - INFO - [app.py] - Сервер остановлено
+2026-04-24 06:19:23 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 06:19:23 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 06:19:23 - INFO - [app.py] - Запуск сервера
+2026-04-24 06:21:35 - INFO - [app.py] - Сервер остановлено
+2026-04-24 06:21:36 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 06:21:36 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 06:21:36 - INFO - [app.py] - Запуск сервера
+2026-04-24 06:22:56 - INFO - [app.py] - Сервер остановлено
+2026-04-24 06:22:57 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 06:22:57 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 06:22:57 - INFO - [app.py] - Запуск сервера
+2026-04-24 06:23:36 - INFO - [app.py] - Сервер остановлено
+2026-04-24 06:23:37 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 06:23:37 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 06:23:37 - INFO - [app.py] - Запуск сервера
+2026-04-24 06:31:54 - INFO - [app.py] - Сервер остановлено
+2026-04-24 06:31:54 - INFO - [app.py] - Сервер остановлено
+2026-04-24 08:22:36 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 08:22:36 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 08:22:36 - INFO - [app.py] - Запуск сервера
+2026-04-24 08:22:37 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 08:22:37 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 08:22:37 - INFO - [app.py] - Запуск сервера
+2026-04-24 08:23:05 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-24 08:23:06 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) авторизован
+2026-04-24 08:23:18 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-24 08:23:19 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-24 08:24:27 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: search() missing 1 required positional argument: 'string'
+2026-04-24 08:25:37 - INFO - [app.py] - Сервер остановлено
+2026-04-24 08:25:38 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 08:25:39 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 08:25:39 - INFO - [app.py] - Запуск сервера
+2026-04-24 08:27:21 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-24 08:27:22 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-24 08:31:14 - INFO - [app.py] - Сервер остановлено
+2026-04-24 08:31:15 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-24 08:31:15 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-24 08:31:15 - INFO - [app.py] - Запуск сервера
+2026-04-24 08:31:21 - INFO - [app.py] - Сервер остановлено
+2026-04-24 08:31:21 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:39:51 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:39:51 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:39:51 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:39:52 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:39:52 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:39:52 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:43:11 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:43:12 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:43:12 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:43:12 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:43:31 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:43:32 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:43:32 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:43:32 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:44:22 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:44:23 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:44:23 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:44:23 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:44:50 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:44:51 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:44:51 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:44:51 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:45:47 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:45:48 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:45:48 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:45:48 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:46:40 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:46:41 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:46:41 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:46:41 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:46:43 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:46:44 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:46:44 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:46:44 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:49:07 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:49:08 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:49:08 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:49:08 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:49:57 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:49:57 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:49:57 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:49:57 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:50:02 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:50:03 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:50:03 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:50:03 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:50:30 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:50:31 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:50:31 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:50:31 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:50:37 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:50:37 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:50:37 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:50:37 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:50:47 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-26 03:50:47 - INFO - [logic\pages\auth\auth.py] - Пользователь (test@gmail.com) зарегистрирован
+2026-04-26 03:52:52 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:52:53 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:52:53 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:52:53 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:53:33 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:53:34 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:53:34 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:53:34 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:54:55 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:54:56 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:54:56 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:54:56 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:55:44 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:55:45 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:55:45 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:55:45 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:56:53 - INFO - [app.py] - Сервер остановлено
+2026-04-26 03:56:54 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 03:56:54 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 03:56:54 - INFO - [app.py] - Запуск сервера
+2026-04-26 03:58:02 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-26 03:58:03 - INFO - [logic\pages\auth\auth.py] - Пользователь (a@gmail.com) зарегистрирован
+2026-04-26 03:58:18 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 03:58:28 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 03:58:38 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 03:59:45 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-26 03:59:45 - INFO - [logic\pages\auth\auth.py] - Пользователь (a@gmail.com) зарегистрирован
+2026-04-26 03:59:56 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 03:59:57 - INFO - [logic\pages\auth\auth.py] - Пользователь (a@gmail.com) авторизован
+2026-04-26 04:01:26 - INFO - [app.py] - Сервер остановлено
+2026-04-26 04:01:27 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:08:10 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:08:10 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:08:10 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:08:11 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:08:11 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:08:11 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:08:47 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-26 05:08:48 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc@gmail.com) зарегистрирован
+2026-04-26 05:08:56 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:08:57 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:09:21 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:09:21 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:09:21 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:09:22 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:09:22 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:09:22 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:10:05 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:10:05 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:43:48 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:43:48 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:43:48 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:43:49 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:43:49 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:43:49 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:45:05 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:45:06 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:45:06 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:45:06 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:45:19 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: expected string or bytes-like object, got 'EmailSyntaxError'
+2026-04-26 05:48:37 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:48:38 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:48:38 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:48:38 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:48:40 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:48:40 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:51:14 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:51:14 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:51:14 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:51:15 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:51:15 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:51:15 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:51:52 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:51:53 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:51:53 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:51:53 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:51:58 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:51:59 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:51:59 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:51:59 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:52:11 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: expected string or bytes-like object, got 'EmailSyntaxError'
+2026-04-26 05:53:36 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:53:37 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:53:37 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:53:37 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:54:07 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:54:08 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:54:08 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:54:08 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:54:09 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:54:10 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:54:10 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:54:10 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:54:32 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:54:33 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:54:33 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:54:33 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:55:04 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:55:05 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:55:05 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:55:05 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:56:49 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:56:50 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:56:50 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:56:50 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:57:33 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:57:34 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 05:57:34 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 05:57:34 - INFO - [app.py] - Запуск сервера
+2026-04-26 05:58:15 - INFO - [app.py] - Сервер остановлено
+2026-04-26 05:58:16 - INFO - [app.py] - Сервер остановлено
+2026-04-26 06:38:29 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 06:38:30 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 06:38:30 - INFO - [app.py] - Запуск сервера
+2026-04-26 06:38:30 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 06:38:31 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 06:38:31 - INFO - [app.py] - Запуск сервера
+2026-04-26 06:38:52 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a42150>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:39:37 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a63710>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:40:33 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a60aa0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:40:37 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a63dd0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:40:38 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a6fc80>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:40:47 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a93860>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:43:49 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a1d6a0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:43:59 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a83a10>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:44:01 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a62270>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:44:02 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a69f6fc0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:44:18 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a90ad0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:44:21 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a69f70e0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:44:52 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a91c10>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:44:55 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a6c740>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:44:57 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6a402c0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:45:02 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6b52870>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:45:07 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6bbb1d0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:45:08 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6bde180>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:45:08 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a69f5880>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:45:09 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x155a6bb96d0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:45:12 - INFO - [app.py] - Сервер остановлено
+2026-04-26 06:45:12 - INFO - [app.py] - Сервер остановлено
+2026-04-26 06:49:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 06:49:16 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 06:49:16 - INFO - [app.py] - Запуск сервера
+2026-04-26 06:49:17 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 06:49:17 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 06:49:17 - INFO - [app.py] - Запуск сервера
+2026-04-26 06:49:38 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x1b72f8442f0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:49:43 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x1b7328918e0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:49:56 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 06:49:57 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc@gmail.com) авторизован
+2026-04-26 06:50:10 - INFO - [app.py] - Сервер остановлено
+2026-04-26 06:50:10 - INFO - [app.py] - Сервер остановлено
+2026-04-26 06:52:46 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 06:52:46 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 06:52:46 - INFO - [app.py] - Запуск сервера
+2026-04-26 06:52:47 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 06:52:47 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 06:52:47 - INFO - [app.py] - Запуск сервера
+2026-04-26 06:53:08 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x283e8fd66c0>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:53:11 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x283e926c470>, 'Connection to api.openweathermap.org timed out. (connect timeout=None)'))
+2026-04-26 06:53:17 - INFO - [app.py] - Сервер остановлено
+2026-04-26 06:53:17 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:01:43 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:01:43 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:01:43 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:01:44 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:01:44 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:01:44 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:01:53 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8de3db20>, 'Connection to api.openweathermap.org timed out. (connect timeout=7)'))
+2026-04-26 07:01:53 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8de3df70>, 'Connection to api.openweathermap.org timed out. (connect timeout=7)'))
+2026-04-26 07:01:53 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8de3df70>, 'Connection to api.openweathermap.org timed out. (connect timeout=7)'))
+2026-04-26 07:02:00 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8df6a120>, 'Connection to api.openweathermap.org timed out. (connect timeout=7)'))
+2026-04-26 07:02:07 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPConnection(host='api.openweathermap.org', port=80) at 0x28d8deb9670>, 'Connection to api.openweathermap.org timed out. (connect timeout=7)'))
+2026-04-26 07:02:22 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:02:22 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:03:53 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:03:53 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:03:53 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:03:54 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:03:54 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:03:54 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:04:01 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.openweathermap.org', port=443) at 0x262eddd30b0>, 'Connection to api.openweathermap.org timed out. (connect timeout=7)'))
+2026-04-26 07:04:05 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.openweathermap.org', port=443) at 0x262ede30230>, 'Connection to api.openweathermap.org timed out. (connect timeout=7)'))
+2026-04-26 07:04:58 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:04:59 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:04:59 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:04:59 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:05:16 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=6bb8642792165bf0e9cee96779374806&units=metric (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.openweathermap.org', port=443) at 0x1b687783830>, 'Connection to api.openweathermap.org timed out. (connect timeout=17)'))
+2026-04-26 07:05:30 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:05:30 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:10:03 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:10:03 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:10:03 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:10:04 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:10:04 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:10:04 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:10:19 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 11.8 сек, требуется 300 сек
+2026-04-26 07:11:10 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 62.4 сек, требуется 300 сек
+2026-04-26 07:11:29 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:11:30 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:11:30 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:11:30 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:11:30 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 82.8 сек, требуется 300 сек
+2026-04-26 07:12:32 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:12:33 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:12:33 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:12:33 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:12:39 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 4.1
+2026-04-26 07:12:40 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 4.7
+2026-04-26 07:12:47 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:12:49 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:12:49 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:12:49 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:12:49 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 14.3
+2026-04-26 07:14:38 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:14:39 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:14:39 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:14:39 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:14:59 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:15:00 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:15:01 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:15:01 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:15:01 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 20.3
+2026-04-26 07:15:10 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 29.0
+2026-04-26 07:15:11 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 29.6
+2026-04-26 07:15:11 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 30.1
+2026-04-26 07:15:15 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:15:15 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:15:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:15:17 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:15:17 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:15:18 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:15:18 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:15:18 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:15:18 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 36.5
+2026-04-26 07:15:20 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 39.0
+2026-04-26 07:15:21 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 39.7
+2026-04-26 07:16:43 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:16:44 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:16:44 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:16:44 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:17:01 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 15.4
+2026-04-26 07:17:30 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:17:31 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 07:17:31 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 07:17:31 - INFO - [app.py] - Запуск сервера
+2026-04-26 07:17:32 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 46.3
+2026-04-26 07:18:05 - INFO - [app.py] - Сервер остановлено
+2026-04-26 07:18:06 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:16:25 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:16:25 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:16:25 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:16:26 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:16:26 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:16:26 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:16:32 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 2.3
+2026-04-26 08:16:33 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 3.8
+2026-04-26 08:16:35 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 5.1
+2026-04-26 08:16:40 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 10.1
+2026-04-26 08:17:05 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:17:06 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:17:06 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:17:06 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:17:09 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 39.0
+2026-04-26 08:17:11 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 41.5
+2026-04-26 08:17:12 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 42.7
+2026-04-26 08:17:13 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 43.8
+2026-04-26 08:17:15 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 45.1
+2026-04-26 08:17:19 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 49.4
+2026-04-26 08:17:20 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 50.5
+2026-04-26 08:17:57 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:17:58 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:17:58 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:17:58 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:18:00 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 0.4
+2026-04-26 08:18:01 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.7
+2026-04-26 08:19:04 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:19:05 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:19:06 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:19:06 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:20:21 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 0.0
+2026-04-26 08:20:35 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 13.2
+2026-04-26 08:20:48 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 26.2
+2026-04-26 08:23:11 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:23:12 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:23:12 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:23:12 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:23:32 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:23:33 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:23:33 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:23:33 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:23:34 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 13.9
+2026-04-26 08:23:35 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 15.4
+2026-04-26 08:23:36 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 16.2
+2026-04-26 08:24:20 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:24:21 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:24:21 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:24:21 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:24:25 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 0.4
+2026-04-26 08:24:27 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.8
+2026-04-26 08:24:29 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 4.4
+2026-04-26 08:24:31 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 5.6
+2026-04-26 08:24:45 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:24:46 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:24:46 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:24:46 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:24:46 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 21.5
+2026-04-26 08:25:11 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:25:12 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:25:12 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:25:12 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:25:12 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 46.8
+2026-04-26 08:25:12 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 47.0
+2026-04-26 08:25:13 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 48.4
+2026-04-26 08:25:14 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 49.4
+2026-04-26 08:25:15 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 50.3
+2026-04-26 08:25:16 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 51.5
+2026-04-26 08:25:37 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:25:38 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:25:38 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:25:38 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:26:10 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:26:11 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:26:11 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:26:11 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:26:11 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 32.1
+2026-04-26 08:26:44 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 0.2
+2026-04-26 08:26:45 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.5
+2026-04-26 08:26:46 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 2.7
+2026-04-26 08:26:47 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 3.7
+2026-04-26 08:26:48 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 5.0
+2026-04-26 08:32:57 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:32:58 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:32:58 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:32:58 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:33:01 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.3
+2026-04-26 08:33:02 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 2.8
+2026-04-26 08:33:03 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 3.7
+2026-04-26 08:33:04 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 4.7
+2026-04-26 08:33:05 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 6.0
+2026-04-26 08:33:16 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:33:17 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:33:17 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:33:17 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:33:17 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 18.1
+2026-04-26 08:33:26 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:33:27 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:33:27 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:33:27 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:33:27 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 27.9
+2026-04-26 08:33:28 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 28.9
+2026-04-26 08:33:30 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 30.2
+2026-04-26 08:33:41 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:33:42 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:33:42 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:33:42 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:33:42 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 43.1
+2026-04-26 08:33:49 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:33:50 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:33:50 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:33:50 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:33:51 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 52.1
+2026-04-26 08:33:57 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 57.8
+2026-04-26 08:34:22 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:34:22 - INFO - [app.py] - Сервер остановлено

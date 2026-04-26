@@ -59,5 +59,22 @@
 #     print(temp)
 
 
-num = 7.4
-print(round(num))
+
+a = "hello"
+b = ""
+print(True if len(a or b) < 7 else False)
+
+
+
+
+from email_validator import validate_email, EmailNotValidError
+from eng_to_ru import Translator
+
+translator = Translator()
+
+email = "abc.@gmail.com"
+try:
+    validated_email = validate_email(email)
+    print("Valid email:", validated_email["email"])
+except EmailNotValidError as e:
+    print("Invalid email:", translator.run(str(e)))

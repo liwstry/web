@@ -9,9 +9,13 @@ from flask import render_template, request as rq, flash, redirect, url_for
 from flask_login import logout_user
 
 from logic.pages.auth.auth import Auth
+
 from logic.pages.profile.profile import Profile
+
 from logic.pages.admin.users_handler import UsersHandler
 from logic.pages.admin.add_cars import AddCars
+
+from logic.pages.cars.cars import OrderCar
 from logic.pages.cars.cars import CarsHandler
 
 from logic.services.change_password.change_password import ChangePassword
@@ -29,6 +33,7 @@ class Routes:
         self.profile_handler = Profile()
         self.admin = UsersHandler()
         self.cars = CarsHandler()
+        self.order_car = OrderCar()
         self.change_password = ChangePassword(app, mail, token)
         self.add_car = AddCars()
         
@@ -95,11 +100,9 @@ class Routes:
         def cars_list():
             brand = rq.args.get("brand")
             model = rq.args.get("model")
-            cars = []
+            cars = self.cars.get_cars(brand, model)
             
-            if brand and model:
-                cars = self.cars.get_cars(brand, model)
-                return render_template("card_cars.html", cars=cars, brand=brand, model=model)
+            return render_template("card_cars.html", cars=cars, brand=brand, model=model)
         
         @self.app.route("/cars/<car_id>")
         def car_detail(car_id):
@@ -108,3 +111,7 @@ class Routes:
                 flash("Автомобиль не найден", "warning")
                 return redirect(url_for("cars_brands"))
             return render_template("car_detail.html", car=car)
+        
+        @self.app.route("/cars/order/<car_id>", methods=["post"])
+        def order_car(car_id):
+            return self.order_car.order_car(car_id)

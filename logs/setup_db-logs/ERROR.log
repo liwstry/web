@@ -1,0 +1,5 @@
+2026-04-23 14:01:27 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:16 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:23 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:07:45 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:10:27 - ERROR - [database\setup_db\create_db.py] - Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'

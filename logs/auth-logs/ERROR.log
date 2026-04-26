@@ -1,0 +1,3 @@
+2026-04-24 08:24:27 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: search() missing 1 required positional argument: 'string'
+2026-04-26 05:45:19 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: expected string or bytes-like object, got 'EmailSyntaxError'
+2026-04-26 05:52:11 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: expected string or bytes-like object, got 'EmailSyntaxError'

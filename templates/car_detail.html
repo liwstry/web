@@ -45,7 +45,13 @@
 
             <div class="detail-actions">
                 <a href="{{ url_for('cars_list', brand=car.brand, model=car.model) }}" class="btn btn-back">Назад к списку</a>
-                <button class="btn btn-contact">Приобрести</button>
+                <!-- <form action="{{ url_for('cars_list', brand=car.brand, model=car.model) }}" method="GET" class="action-form">
+                    <button type="submit" class="btn btn-back">Назад к списку</button>
+                </form> -->
+
+                <form action="{{ url_for('order_car', car_id=car.id) }}" method="POST">
+                    <button type="submit" class="btn btn-contact">Заказать</button>
+                </form>
             </div>
         </div>
     </div>

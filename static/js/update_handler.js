@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateWeatherDisplay(weather) {
         const weatherWidget = document.querySelector('.weather-widget');
-        if (!weather) {
-            weatherWidget.innerHTML = '<span class="weather-error">Ошибка загрузки погоды</span>';
-            return;
-        }
 
         let tempClass = weather.temp <= 0 ? 'weather-temp-cold' : 'weather-temp';
         weatherWidget.innerHTML = `
@@ -27,5 +23,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setInterval(() => {
         socket.emit('get_weather');
-    }, 300000); // Обновление каждые 5 минут
+    }, 300000);
 });

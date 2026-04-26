@@ -10,6 +10,7 @@ from logs.setup_logs import LogSetup
 
 from database.setup_db.create_db import create_db
 from database.setup_db.models.users_ml import Users
+from database.setup_db.models.base_instance import db
 
 from realtime_sockets.server_socket import ServerSocket
 from realtime_sockets.weather_socket import WeatherSocket
@@ -44,7 +45,7 @@ except Exception as e:
 
 @lm.user_loader
 def load_user(user_id):
-    return Users.query.get(user_id)
+    return db.session.get(Users, user_id)
 
 
 

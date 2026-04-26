@@ -272,6 +272,27 @@ h1 {
   transform: translateY(-2px);
 }
 
+
+.detail-actions form {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.detail-actions form .btn {
+    width: auto;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+
 /* Адаптивность для мобильных устройств */
 @media (max-width: 768px) {
   .car-detail {

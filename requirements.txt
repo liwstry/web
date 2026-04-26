@@ -10,3 +10,5 @@ requests==2.33.0
 psutil==7.2.2
 
 pillow==12.2.0
+email-validator==2.3.0
+eng_to_ru==0.1.1

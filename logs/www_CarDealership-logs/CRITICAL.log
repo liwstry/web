@@ -4,3 +4,8 @@
 2026-04-11 04:30:42 - CRITICAL - [app.py] - Ошибка инициализации компонента: 'Routes' object has no attribute 'socketio'
 2026-04-11 04:57:07 - CRITICAL - [app.py] - Ошибка инициализации компонента: Routes.__init__() missing 4 required positional arguments: 'app', 'socketio', 'mail', and 'token'
 2026-04-11 05:36:29 - CRITICAL - [app.py] - Ошибка инициализации компонента: Routes.__init__() missing 4 required positional arguments: 'app', 'socketio', 'mail', and 'token'
+2026-04-23 14:01:27 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:16 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:06:23 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:07:45 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-23 14:10:27 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'

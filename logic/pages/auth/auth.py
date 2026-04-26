@@ -1,9 +1,13 @@
 from flask import request as rq, flash, redirect, url_for, render_template
 from flask_login import login_user
 
+from utils import validation as valid
 from utils.hash_password import create_hash_password, check_hash_password
+from utils.check_user import check_user
+
 from database.setup_db.models.users_ml import Users
 from database.setup_db.models.base_instance import db
+
 from logs.setup_logs import LogSetup
 
 
@@ -11,9 +15,6 @@ from logs.setup_logs import LogSetup
 class Auth:
     def __init__(self):
         self.log = LogSetup(__file__)
-    
-    def _check_user(self, email):
-        return Users.query.filter_by(email=email).first()
     
     def signup(self):
         if rq.method == "POST":
@@ -23,6 +24,16 @@ class Auth:
                 email = rq.form.get("email")
                 password = rq.form.get("password")
                 confirm_password = rq.form.get("confirm_password")
+                
+                if not valid.password(password):
+                    return render_template("signup.html")
+                
+                if not valid.email(email):
+                    return render_template("signup.html")
+                
+                if not valid.name(name, last_name):
+                    return render_template("signup.html")
+                
                 
                 self.log.log("info", "Данные при регистрации получены")
             except Exception as e:
@@ -34,15 +45,15 @@ class Auth:
                 flash("Пароли не совпадают", "error")
                 return render_template("signup.html")
             
-            existing_user = self._check_user(email)
+            existing_user = check_user(email)
             if existing_user:
                 flash("Пользователь с таким email уже существует", "error")
                 return render_template("signup.html")
             
             try:
                 user_add = Users(
-                    name=name,
-                    last_name=last_name,
+                    name=name.capitalize(),
+                    last_name=last_name.capitalize(),
                     email=email,
                     password=create_hash_password(password)
                 )
@@ -74,7 +85,7 @@ class Auth:
                 flash("Ошибка получения данных")
                 return render_template("signin")
             
-            user = self._check_user(email)
+            user = check_user(email)
             
             if user and check_hash_password(password, user.password):
                 login_user(user)
