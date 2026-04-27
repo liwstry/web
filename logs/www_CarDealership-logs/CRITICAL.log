@@ -9,3 +9,4 @@
 2026-04-23 14:06:23 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
 2026-04-23 14:07:45 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
 2026-04-23 14:10:27 - CRITICAL - [app.py] - Ошибка инициализации компонента: Foreign key associated with column 'orders.car_id' could not find table 'car' with which to generate a foreign key to target column 'id'
+2026-04-27 07:39:36 - CRITICAL - [app.py] - Ошибка инициализации компонента: name 'args' is not defined

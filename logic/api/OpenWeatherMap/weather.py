@@ -5,9 +5,9 @@ from datetime import timedelta, datetime, timezone
 from config import Config
 from logs.setup_logs import LogSetup
 
-API_KEY = Config.API_TOKEN_WEATHER
-
 log = LogSetup(__file__)
+
+API_KEY = Config.API_TOKEN_WEATHER
 
 class OpenWeatherAPI:
     def __init__(self, city):
@@ -34,7 +34,7 @@ class OpenWeatherAPI:
             log.log("error", f"Ошибка при проверке даты запроса: {e}")
             return False
 
-    def record_data(self, temp):
+    def _record_data(self, temp):
         data = {
             "date_request": self.current_date.isoformat(),
             "temp": temp
@@ -49,8 +49,8 @@ class OpenWeatherAPI:
             if response.status_code == 200:
                 data = response.json()
                 temp = data["main"]["temp"]
-                self.record_data(temp)
-                return temp
+                self._record_data(temp)
+                return int(temp)
             else:
                 log.log("warning", f"API вернуло статус {response.status_code}")
                 return None
@@ -66,7 +66,7 @@ class OpenWeatherAPI:
                     data = json.load(file)
                     return {
                         "city": self.city,
-                        "temp": data["temp"]
+                        "temp": int(data["temp"])
                     }
             except Exception as e:
                 log.log("error", f"Ошибка при чтении json: {e}")
