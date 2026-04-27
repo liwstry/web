@@ -2664,3 +2664,20 @@
 2026-04-27 09:20:57 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
 2026-04-27 09:21:26 - INFO - [app.py] - Сервер остановлено
 2026-04-27 09:21:26 - INFO - [app.py] - Сервер остановлено
+2026-04-27 09:36:17 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 09:36:17 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 09:36:17 - INFO - [app.py] - Запуск сервера
+2026-04-27 09:36:18 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 09:36:18 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 09:36:18 - INFO - [app.py] - Запуск сервера
+2026-04-27 09:37:38 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 0.1
+2026-04-27 09:37:40 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.7
+2026-04-27 09:37:40 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 2.1
+2026-04-27 09:40:23 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=f9e41eddd2375583b776ae5d6b98d627&units=metric (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.openweathermap.org', port=443) at 0x27f5c2dcc80>, 'Connection to api.openweathermap.org timed out. (connect timeout=17)'))
+2026-04-27 09:40:54 - ERROR - [logic\api\OpenWeatherMap\weather.py] - Ошибка при получении данных погоды для города (Москва): HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&appid=f9e41eddd2375583b776ae5d6b98d627&units=metric (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.openweathermap.org', port=443) at 0x27f5c423770>, 'Connection to api.openweathermap.org timed out. (connect timeout=17)'))
+2026-04-27 09:41:47 - INFO - [app.py] - Сервер остановлено
+2026-04-27 09:41:48 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 09:41:48 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 09:41:48 - INFO - [app.py] - Запуск сервера
+2026-04-27 09:42:01 - INFO - [app.py] - Сервер остановлено
+2026-04-27 09:42:01 - INFO - [app.py] - Сервер остановлено
