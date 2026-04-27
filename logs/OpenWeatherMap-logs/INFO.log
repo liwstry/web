@@ -183,3 +183,10 @@
 2026-04-27 08:13:07 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 54.2
 2026-04-27 08:13:07 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 54.7
 2026-04-27 08:13:08 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 55.1
+2026-04-27 08:25:14 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.7
+2026-04-27 08:25:16 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 3.4
+2026-04-27 08:25:17 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 4.3
+2026-04-27 08:25:21 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 8.7
+2026-04-27 08:25:31 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 18.3
+2026-04-27 08:25:32 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 19.4
+2026-04-27 08:25:35 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 22.8

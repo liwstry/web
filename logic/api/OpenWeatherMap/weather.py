@@ -86,5 +86,5 @@ class OpenWeatherAPI:
                 data = json.load(file)
                 return {
                     "city": self.city,
-                    "temp": data["temp"]
+                    "temp": int(data["temp"])
                 }

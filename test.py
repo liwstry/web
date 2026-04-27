@@ -78,3 +78,7 @@ try:
     print("Valid email:", validated_email["email"])
 except EmailNotValidError as e:
     print("Invalid email:", translator.run(str(e)))
+
+import os
+
+print(os.getenv("MAIL_PASSWORD"))
