@@ -2100,3 +2100,268 @@
 2026-04-26 08:33:57 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 57.8
 2026-04-26 08:34:22 - INFO - [app.py] - Сервер остановлено
 2026-04-26 08:34:22 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:57:48 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:57:48 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:57:48 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:57:49 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 08:57:49 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 08:57:49 - INFO - [app.py] - Запуск сервера
+2026-04-26 08:57:53 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.3
+2026-04-26 08:57:54 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 2.7
+2026-04-26 08:57:56 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 3.9
+2026-04-26 08:58:00 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 8.2
+2026-04-26 08:58:09 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 16.8
+2026-04-26 08:58:26 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 34.0
+2026-04-26 08:58:32 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 40.7
+2026-04-26 08:58:48 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 56.7
+2026-04-26 08:58:59 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 08:59:00 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc@gmail.com) авторизован
+2026-04-26 08:59:00 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 1.8
+2026-04-26 08:59:09 - INFO - [logic\services\email\send_to_email.py] - Сообщение отправлено на почту: ['abc@gmail.com']
+2026-04-26 08:59:09 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (abc@gmail.com)
+2026-04-26 08:59:10 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 11.5
+2026-04-26 08:59:24 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 25.5
+2026-04-26 08:59:26 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 27.5
+2026-04-26 08:59:38 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 39.5
+2026-04-26 08:59:40 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 42.3
+2026-04-26 08:59:42 - INFO - [app.py] - Сервер остановлено
+2026-04-26 08:59:42 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:23:14 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:23:14 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:23:14 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:23:15 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:23:15 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:23:15 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:23:22 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 4.7
+2026-04-26 09:23:27 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 09:23:27 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 09:23:28 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 10.0
+2026-04-26 09:24:02 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f8e9cbb1dsm30698085b3a.14 - gsmtp')
+2026-04-26 09:24:02 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:24:02 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 44.9
+2026-04-26 09:24:54 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при проверке ссылки для смены пароля: Signature b'McIZ8NFNWM1EjROF0iTiodtDma4' does not match
+2026-04-26 09:25:07 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 09:25:08 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 09:25:08 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 13.0
+2026-04-26 09:25:12 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 17.0
+2026-04-26 09:25:13 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 17.9
+2026-04-26 09:25:39 - INFO - [logic\pages\profile\profile.py] - Данные для обновления получены
+2026-04-26 09:25:40 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 44.6
+2026-04-26 09:25:51 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-36140fc593bsm34996428a91.1 - gsmtp')
+2026-04-26 09:25:51 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:25:52 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 56.7
+2026-04-26 09:26:24 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f8e9819e5sm29475427b3a.2 - gsmtp')
+2026-04-26 09:26:24 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:26:42 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b5fab20d33sm289046055ad.63 - gsmtp')
+2026-04-26 09:26:42 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:26:42 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 16.7
+2026-04-26 09:27:07 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c797702faaesm21234567a12.23 - gsmtp')
+2026-04-26 09:27:07 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:27:07 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 42.0
+2026-04-26 09:28:17 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:28:17 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:28:19 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:28:19 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:28:19 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:28:20 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:28:20 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:28:20 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:28:21 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 0.1
+2026-04-26 09:28:22 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 09:28:23 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 09:28:23 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 2.0
+2026-04-26 09:28:33 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-361410b998fsm28035086a91.13 - gsmtp')
+2026-04-26 09:28:33 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:28:33 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 12.0
+2026-04-26 09:36:30 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:36:30 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:36:32 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:36:32 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:36:32 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:36:33 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:36:33 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:36:33 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:36:35 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 09:36:36 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 09:37:00 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+2026-04-26 09:37:00 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:40:34 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:40:35 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:40:35 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:40:35 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:41:32 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:41:33 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:41:33 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:41:33 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:41:42 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:41:43 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:41:43 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:41:43 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:42:00 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 09:42:00 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 09:42:03 - DEBUG - [logic\services\email\send_to_email.py] - Попытка отправки письма на: ['liwstry5@gmail.com']
+2026-04-26 09:42:03 - DEBUG - [logic\services\email\send_to_email.py] - Тема: Смена пароля
+2026-04-26 09:42:10 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c7976fa3604sm19210414a12.14 - gsmtp')
+2026-04-26 09:42:10 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:42:17 - DEBUG - [logic\services\email\send_to_email.py] - Попытка отправки письма на: ['liwstry5@gmail.com']
+2026-04-26 09:42:17 - DEBUG - [logic\services\email\send_to_email.py] - Тема: Смена пароля
+2026-04-26 09:42:24 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3613faf1103sm10476362a91.8 - gsmtp')
+2026-04-26 09:42:24 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 09:43:26 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:43:27 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:43:27 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:43:27 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:46:38 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:46:39 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:46:39 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:46:39 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:46:42 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 09:46:43 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 09:46:52 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b5fa9ff918sm289269755ad.13 - gsmtp')
+2026-04-26 09:46:52 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 09:54:02 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:54:02 - INFO - [app.py] - Сервер остановлено
+2026-04-26 09:54:05 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:54:05 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:54:05 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:54:06 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 09:54:06 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 09:54:06 - INFO - [app.py] - Запуск сервера
+2026-04-26 09:54:13 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 09:54:14 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 09:54:25 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f8e9cbb28sm26851255b3a.13 - gsmtp')
+2026-04-26 09:54:25 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:03:22 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c7977031729sm22590531a12.25 - gsmtp')
+2026-04-26 10:03:22 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:03:35 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-361419739dfsm29310896a91.13 - gsmtp')
+2026-04-26 10:03:35 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:04:07 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:04:08 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:04:08 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:04:08 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:04:11 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 10:04:12 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 10:04:16 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2026-04-26 10:04:16 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:05:14 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:05:15 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:05:15 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:05:15 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:05:18 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 10:05:18 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 10:05:29 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c797702fbfcsm21693197a12.22 - gsmtp')
+2026-04-26 10:05:29 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:22:17 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:22:17 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:22:18 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:22:18 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:22:19 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:22:19 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:22:19 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:22:19 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:22:26 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 10:22:27 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 10:22:39 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c79770512afsm22166376a12.31 - gsmtp')
+2026-04-26 10:22:39 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:35:15 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f8ebb38ddsm27466784b3a.34 - gsmtp')
+2026-04-26 10:35:15 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:35:54 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:35:55 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:35:55 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:35:55 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:35:58 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 10:35:58 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 10:36:08 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3614371a7c8sm28190355a91.5 - gsmtp')
+2026-04-26 10:36:21 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:36:22 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:36:22 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:36:22 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:36:38 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 10:36:39 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 10:36:48 - ERROR - [logic\services\email\send_to_email.py] - Ошибка при отправке сообщения на почту: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82f8ebbcfd7sm35586940b3a.32 - gsmtp')
+2026-04-26 10:36:48 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:37:21 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:37:21 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:42:37 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:42:37 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:42:37 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:42:38 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-26 10:42:38 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-26 10:42:38 - INFO - [app.py] - Запуск сервера
+2026-04-26 10:42:41 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 2.0
+2026-04-26 10:42:44 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 5.1
+2026-04-26 10:42:44 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-26 10:42:45 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-26 10:42:45 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 6.5
+2026-04-26 10:42:58 - INFO - [logic\services\email\send_to_email.py] - Сообщение отправлено на почту: ['liwstry5@gmail.com']
+2026-04-26 10:42:58 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-26 10:42:58 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 18.9
+2026-04-26 10:51:11 - INFO - [app.py] - Сервер остановлено
+2026-04-26 10:51:11 - INFO - [app.py] - Сервер остановлено
+2026-04-27 05:07:26 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 05:07:26 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 05:07:26 - INFO - [app.py] - Запуск сервера
+2026-04-27 05:07:27 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 05:07:27 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 05:07:27 - INFO - [app.py] - Запуск сервера
+2026-04-27 05:07:30 - INFO - [app.py] - Сервер остановлено
+2026-04-27 05:07:31 - INFO - [app.py] - Сервер остановлено
+2026-04-27 05:40:47 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 05:40:47 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 05:40:47 - INFO - [app.py] - Запуск сервера
+2026-04-27 05:40:48 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 05:40:48 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 05:40:48 - INFO - [app.py] - Запуск сервера
+2026-04-27 05:41:02 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 11.5
+2026-04-27 05:41:03 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-27 05:41:04 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-27 05:41:04 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 13.3
+2026-04-27 05:41:20 - INFO - [logic\services\email\send_to_email.py] - Сообщение отправлено на почту: ['liwstry5@gmail.com']
+2026-04-27 05:41:20 - INFO - [logic\services\change_password\change_password.py] - Ссылка для смены пароля отправлена на (liwstry5@gmail.com)
+2026-04-27 05:41:20 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 29.5
+2026-04-27 05:41:25 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 35.1
+2026-04-27 05:41:33 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 42.7
+2026-04-27 05:41:34 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 43.4
+2026-04-27 05:41:35 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 44.9
+2026-04-27 05:41:36 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 45.9
+2026-04-27 05:41:46 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 55.3
+2026-04-27 05:42:12 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 6.3
+2026-04-27 05:42:17 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 11.5
+2026-04-27 05:42:27 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 21.4
+2026-04-27 05:42:38 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 32.8
+2026-04-27 05:42:41 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 35.2
+2026-04-27 05:42:42 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 36.5
+2026-04-27 05:42:44 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 38.3
+2026-04-27 05:42:51 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 45.4
+2026-04-27 05:42:54 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 47.9
+2026-04-27 05:42:55 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 48.9
+2026-04-27 05:42:56 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 50.3
+2026-04-27 05:42:57 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 51.4
+2026-04-27 05:42:58 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 52.5
+2026-04-27 05:42:59 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 53.7
+2026-04-27 05:49:51 - INFO - [app.py] - Сервер остановлено
+2026-04-27 05:49:51 - INFO - [app.py] - Сервер остановлено
+2026-04-27 06:02:15 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 06:02:15 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 06:02:15 - INFO - [app.py] - Запуск сервера
+2026-04-27 06:02:16 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 06:02:16 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 06:02:16 - INFO - [app.py] - Запуск сервера
+2026-04-27 06:02:18 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 0.6
+2026-04-27 06:02:23 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 5.0
+2026-04-27 06:02:23 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 5.8
+2026-04-27 06:02:26 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 8.1
+2026-04-27 06:02:28 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 10.5
+2026-04-27 06:02:29 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-27 06:02:30 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-27 06:02:30 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 12.2
+2026-04-27 06:02:36 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 18.8
+2026-04-27 06:02:37 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 19.6
+2026-04-27 06:02:42 - INFO - [app.py] - Сервер остановлено
+2026-04-27 06:02:43 - INFO - [app.py] - Инициализация основных компонентов приложения
+2026-04-27 06:02:43 - INFO - [database\setup_db\create_db.py] - База данных создана
+2026-04-27 06:02:43 - INFO - [app.py] - Запуск сервера
+2026-04-27 06:02:43 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 25.5
+2026-04-27 06:02:43 - INFO - [logic\api\OpenWeatherMap\weather.py] - Частый запрос для города Москва. Прошло 25.8
+2026-04-27 06:02:46 - INFO - [app.py] - Сервер остановлено
+2026-04-27 06:02:46 - INFO - [app.py] - Сервер остановлено

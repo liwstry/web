@@ -15,6 +15,10 @@ def send_to_email(mail: _Mail, subject, sender, recipients: list, text_msg, html
             html=html_body
         )
         mail.send(msg)
+        
         log.log("info", f"Сообщение отправлено на почту: {recipients}")
+        return True
+    
     except Exception as e:
         log.log("error", f"Ошибка при отправке сообщения на почту: {e}")
+        return False

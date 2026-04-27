@@ -1,0 +1,10 @@
+2026-04-26 09:24:54 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при проверке ссылки для смены пароля: Signature b'McIZ8NFNWM1EjROF0iTiodtDma4' does not match
+2026-04-26 09:46:52 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 09:54:25 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:03:22 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:03:35 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:04:16 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:05:29 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:22:39 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:35:15 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту
+2026-04-26 10:36:48 - ERROR - [logic\services\change_password\change_password.py] - Ошибка при отправке сообщения на почту

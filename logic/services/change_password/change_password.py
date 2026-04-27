@@ -34,10 +34,17 @@ class ChangePassword:
             html = render_template("email/links/change_password_link.html", username=current_user.name, url=url)
             msg = f"Ссылка для смены пароля: {url}"
             
-            send_to_email(self.mail, subject="Смена пароля", sender=self.app.config["MAIL_DEFAULT_SENDER"], recipients=[current_user.email], text_msg=msg, html_body=html)
+            send = send_to_email(
+                self.mail, subject="Смена пароля", sender=self.app.config["MAIL_DEFAULT_SENDER"],
+                recipients=[current_user.email], text_msg=msg, html_body=html
+            )
+            if send:
+                self.log.log("info", f"Ссылка для смены пароля отправлена на ({current_user.email})")
+                flash("Ссылка для смены пароля отправлена на почту", "success")
+            else:
+                self.log.log("error", "Ошибка при отправке сообщения на почту")
+                flash("Ошибка. Сообщение не отправлено", "error")
             
-            self.log.log("info", f"Ссылка для смены пароля отправлена на ({current_user.email})")
-            flash("Ссылка для смены пароля отправлена на почту", "success")
         except Exception as e:
             self.log.log("error", f"Ошибка при отправке ссылки для смены пароля: {e}")
             flash("Ошибка. Сообщение не отправлено", "error")

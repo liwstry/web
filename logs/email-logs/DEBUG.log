@@ -1,0 +1,4 @@
+2026-04-26 09:42:03 - DEBUG - [logic\services\email\send_to_email.py] - Попытка отправки письма на: ['liwstry5@gmail.com']
+2026-04-26 09:42:03 - DEBUG - [logic\services\email\send_to_email.py] - Тема: Смена пароля
+2026-04-26 09:42:17 - DEBUG - [logic\services\email\send_to_email.py] - Попытка отправки письма на: ['liwstry5@gmail.com']
+2026-04-26 09:42:17 - DEBUG - [logic\services\email\send_to_email.py] - Тема: Смена пароля

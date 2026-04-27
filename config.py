@@ -15,7 +15,9 @@ class Config():
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     # MAIL_USE_SSL = True
+    
     MAIL_USERNAME = os.getenv("EMAIL_ADDRESS")
-    MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
     MAIL_DEFAULT_SENDER = os.getenv("EMAIL_ADDRESS")
+    MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
+    
     API_TOKEN_WEATHER = os.getenv("API_TOKEN_WEATHER")
