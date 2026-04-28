@@ -27,17 +27,36 @@
         <div class="container">
             <div class="logo">
                 {%
-                    if request.endpoint == 'admin' or request.endpoint == 'admin_users' or request.endpoint == 'admin_cars' or
-                    request.endpoint == 'server' or request.endpoint == 'add_cars' %}
-                <h1 class="admin-title">Админ-панель</h1>
+                if request.endpoint == 'admin' or request.endpoint == 'admin_users' or request.endpoint == 'admin_cars' or
+                request.endpoint == 'server' or request.endpoint == 'add_cars' %}
+                    <h1 class="admin-title">Админ-панель</h1>
                 {% else %}
-                <a href="/">
-                    <h1>АвтоМир</h1>
-                </a>
+                    <a href="/">
+                        <h1>АвтоМир</h1>
+                    </a>
                 {% endif %}
             </div>
 
-            <div class="weather-widget">
+            {%
+            if request.endpoint != 'admin' and request.endpoint != 'admin_users' and request.endpoint != 'admin_cars' and
+            request.endpoint != 'server' and request.endpoint != 'add_cars' %}
+                <div class="weather-widget">
+                    {%if weather%}
+                        <div class="weather-info">
+                            <span class="weather-city">{{ weather["city"] }}</span>
+                            {%if weather.temp <= 0%}
+                                <span class="weather-temp-cold">{{ weather["temp"] }}°C</span>
+                            {%else%}
+                                <span class="weather-temp">{{ weather["temp"] }}°C</span>
+                            {%endif%}
+                        </div>
+                    {%else%}
+                        <span class="weather-error"></span>
+                    {%endif%}
+                </div>
+            {% endif %}
+            
+            <!-- <div class="weather-widget">
             {%if weather%}
                 <div class="weather-info">
                     <span class="weather-city">{{ weather["city"] }}</span>
@@ -50,7 +69,7 @@
             {%else%}
                 <span class="weather-error"></span>
             {%endif%}
-            </div>
+            </div> -->
 
             <nav class="nav">
                 <ul class="nav-list">
@@ -95,10 +114,10 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Автосалон «АвтоМир». Все права защищены.</p>
+            <p>&copy; Автосалон «АвтоМир». Все права защищены.</p>
             <div class="footer-contacts">
-                <p>Телефон: +7 (XXX) XXX-XX-XX</p>
-                <p>Email: info@automir.ru</p>
+                <p>Телефон: +7 (777) 777-77-77</p>
+                <p>Email: email@gmail.com</p>
             </div>
         </div>
     </footer>

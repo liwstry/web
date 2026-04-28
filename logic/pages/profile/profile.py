@@ -3,7 +3,10 @@ from flask_login import current_user
 
 from database.setup_db.models.base_instance import db
 from database.setup_db.models.users_ml import Users
+
 from utils.check_user import check_user
+import utils.validation as valid
+
 from logs.setup_logs import LogSetup
 
 class Profile:
@@ -34,6 +37,13 @@ class Profile:
             name = rq.form.get("first_name")
             last_name = rq.form.get("last_name")
             email = rq.form.get("email")
+            city = rq.form.get("city")
+            
+            if not valid.name(name, last_name):
+                return self.get_data()
+            
+            if not valid.email(email):
+                return self.get_data()
             
             self.log.log("info", "Данные для обновления получены")
         except Exception as e:
@@ -49,15 +59,18 @@ class Profile:
             flash("Вы оставили поле пустым", "warning")
             return self.get_data()
         
-        if name == current_user.name and last_name == current_user.last_name and email == current_user.email:
+        if (
+            name == current_user.name and last_name == current_user.last_name
+            and email == current_user.email and city == current_user.city
+            ):
             flash("Вы не изменили данные", "warning")
             return self.get_data()
         
         try:
-            # TODO исправить обновление не нужных данных
             current_user.name = name
             current_user.last_name = last_name
             current_user.email = email
+            current_user.city = city
             
             db.session.commit()
             self.log.log("info", f"Данные пользователя ({email}) обновлены")

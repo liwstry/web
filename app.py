@@ -52,7 +52,6 @@ def load_user(user_id):
 if __name__ == "__main__":
     server = ServerSocket(socketio)
     weather = WeatherSocket(socketio)
-
     weather.run()
     server.run()
     

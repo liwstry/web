@@ -8,6 +8,7 @@ class Users(db.Model):
     last_name = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(100), nullable=False, unique=True)
     password = db.Column(db.String(100), nullable=False)
+    city = db.Column(db.String(100))
     date_create = db.Column(db.DateTime, default=func.datetime(func.now(), "+3 hours"), index=True)
     is_admin = db.Column(db.Boolean, default=False)
     

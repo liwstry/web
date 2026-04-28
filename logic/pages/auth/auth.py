@@ -1,7 +1,7 @@
 from flask import request as rq, flash, redirect, url_for, render_template
 from flask_login import login_user
 
-from utils import validation as valid
+import utils.validation as valid
 from utils.hash_password import create_hash_password, check_hash_password
 from utils.check_user import check_user
 
@@ -22,8 +22,13 @@ class Auth:
                 name = rq.form.get("name")
                 last_name = rq.form.get("last_name")
                 email = rq.form.get("email")
+                
+                city = rq.form.get("city")
+                city = "Москва" if city == "" else city
+                
                 password = rq.form.get("password")
                 confirm_password = rq.form.get("confirm_password")
+                
                 
                 if not valid.password(password):
                     return render_template("signup.html")
@@ -33,6 +38,7 @@ class Auth:
                 
                 if not valid.name(name, last_name):
                     return render_template("signup.html")
+                
                 
                 
                 self.log.log("info", "Данные при регистрации получены")
@@ -55,6 +61,7 @@ class Auth:
                     name=name.capitalize(),
                     last_name=last_name.capitalize(),
                     email=email,
+                    city=city.capitalize(),
                     password=create_hash_password(password)
                 )
                 db.session.add(user_add)

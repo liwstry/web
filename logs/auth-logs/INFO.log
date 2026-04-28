@@ -200,3 +200,40 @@
 2026-04-27 09:17:24 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
 2026-04-27 09:20:39 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
 2026-04-27 09:20:40 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 04:45:24 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 04:45:25 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 04:58:25 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-28 04:58:26 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) зарегистрирован
+2026-04-28 05:26:08 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 05:26:16 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 05:26:17 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 07:33:26 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 07:33:27 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 07:55:56 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 07:55:56 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 07:56:29 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-28 07:56:30 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) зарегистрирован
+2026-04-28 07:58:48 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 07:58:49 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) авторизован
+2026-04-28 08:00:05 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:00:06 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) авторизован
+2026-04-28 08:01:25 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:01:26 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) авторизован
+2026-04-28 08:06:18 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:06:19 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) авторизован
+2026-04-28 08:07:33 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:07:34 - INFO - [logic\pages\auth\auth.py] - Пользователь (ivan@gmail.com) авторизован
+2026-04-28 08:09:29 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:09:29 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 08:11:55 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-28 08:11:55 - INFO - [logic\pages\auth\auth.py] - Пользователь (a@gmail.com) зарегистрирован
+2026-04-28 08:13:38 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:13:39 - INFO - [logic\pages\auth\auth.py] - Пользователь (a@gmail.com) авторизован
+2026-04-28 08:14:01 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-28 08:14:02 - INFO - [logic\pages\auth\auth.py] - Пользователь (user@gmail.com) зарегистрирован
+2026-04-28 08:37:18 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:37:18 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 08:43:32 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:43:33 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 08:59:55 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 08:59:56 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован

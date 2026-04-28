@@ -5,7 +5,7 @@ from logic.api.OpenWeatherMap.weather import OpenWeatherAPI
 class WeatherSocket:
     def __init__(self, socketio: _SocketIO):
         self.socketio = socketio
-        self.weather = OpenWeatherAPI("Москва")
+        self.weather = OpenWeatherAPI()
 
     def run_weather_socket(self):
         @self.socketio.on("get_weather")

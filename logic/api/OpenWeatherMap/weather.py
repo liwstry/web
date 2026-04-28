@@ -1,6 +1,7 @@
 import requests as rq
 import json
 from datetime import timedelta, datetime, timezone
+from flask_login import current_user
 
 from config import Config
 from logs.setup_logs import LogSetup
@@ -10,9 +11,14 @@ log = LogSetup(__file__)
 API_KEY = Config.API_TOKEN_WEATHER
 
 class OpenWeatherAPI:
-    def __init__(self, city):
-        self.city = city
-
+    def __init__(self):
+        pass
+    @property
+    def city(self):
+        if current_user and current_user.is_authenticated:
+            return current_user.city
+        return "Москва"
+    
     @property
     def current_date(self):
         return datetime.now(timezone.utc) + timedelta(hours=3)
