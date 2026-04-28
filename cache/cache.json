@@ -1,0 +1,6 @@
+{
+    "An email address cannot have a period immediately before the @-sign.": "Адрес электронной почты не может иметь точку непосредственно перед знаком @.",
+    "The domain name abc.abc does not exist.": "Доменное имя abc.abc не существует.",
+    "The domain name hello.world does not accept email.": "Доменное имя hello.world не принимает электронную почту.",
+    "The part after the @-sign contains invalid characters: '@'.": "Часть после знака @ содержит недопустимые символы: '@'."
+}

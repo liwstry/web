@@ -237,3 +237,11 @@
 2026-04-28 08:43:33 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
 2026-04-28 08:59:55 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
 2026-04-28 08:59:56 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 13:28:46 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-28 13:28:47 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc7@gmail.com) зарегистрирован
+2026-04-28 13:29:08 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-28 13:29:09 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc777@gmail.com) зарегистрирован
+2026-04-28 13:30:37 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-28 13:30:38 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-28 14:24:36 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-04-28 17:36:03 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены

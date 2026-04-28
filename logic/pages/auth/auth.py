@@ -24,7 +24,7 @@ class Auth:
                 email = rq.form.get("email")
                 
                 city = rq.form.get("city")
-                city = "Москва" if city == "" else city
+                city = "Москва" if not city else city
                 
                 password = rq.form.get("password")
                 confirm_password = rq.form.get("confirm_password")
@@ -39,7 +39,9 @@ class Auth:
                 if not valid.name(name, last_name):
                     return render_template("signup.html")
                 
-                
+                if len(city) >= 100:
+                    flash("Город не может содержать более 100 символов", "error")
+                    return render_template("signup.html")
                 
                 self.log.log("info", "Данные при регистрации получены")
             except Exception as e:

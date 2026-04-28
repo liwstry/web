@@ -7,10 +7,17 @@ from eng_to_ru import Translator
 
 from logs.setup_logs import LogSetup
 
+from cache.caching import Cache
+
 log = LogSetup(__name__)
 
+def _empty_input(data):
+    if len(data) == 0 or data is None or data == "" or data.isspace():
+        return True
+    return False
+
 def password(password):
-    if len(password) == 0 or password is None or password == "" or password.isspace():
+    if _empty_input(password):
         flash("Пароль не может быть пустым", "error")
         return False
     
@@ -41,7 +48,7 @@ def password(password):
     return True
 
 def email(email):
-    if not email or len(email) == 0 or email is None or email == "" or email.isspace():
+    if _empty_input(email):
         flash("Почта не может быть пустой", "error")
         return False
     
@@ -52,12 +59,26 @@ def email(email):
     try:
         validate_email(email)
     except EmailNotValidError as e:
-        translator = Translator()
-        try:
-            translat_text = translator.run(str(e))
-        except Exception as e:
-            log.log("error", f"Ошибка при переводе текста: {e}")
-            translat_text = None
+        err = str(e)
+        
+        cache = Cache()
+        cache.load_cache()
+        
+        if err in cache.cache:
+            translat_text = cache.cache[err]
+        else:
+            translator = Translator()
+            try:
+                translat_text = translator.run(str(e))
+                cache.add_cache(err, translat_text)
+                cache.save_cache()
+            
+            except TimeoutError as e:
+                log.log("error", f"Превышено время ожидания при переводе текста: {e}")
+                translat_text = None
+            except Exception as e:
+                log.log("error", f"Ошибка при переводе текста: {e}")
+                translat_text = None
         
         err_text = "Некорректный адрес электронной почты" if translat_text is None else translat_text
         
@@ -67,17 +88,18 @@ def email(email):
     return True
 
 def name(name, last_name):
-    if (
-        len(name) == 0 or len(last_name) == 0 or name is None
-        or name == "" or last_name == "" or last_name is None or name.isspace() or last_name.isspace()
-        ):
-        flash("Имя/Фамилия не может быть пустым", "error")
+    if _empty_input(name):
+        flash("Имя не может быть пустым", "error")
         return False
-
+    
+    if _empty_input(last_name):
+        flash("Фамилия не может быть пустой", "error")
+        return False
+    
     if len(name) > 100 or len(last_name) > 100:
         flash("Имя/Фамилия не может содержать более 100 символов", "error")
         return False
-
+    
     if re.search(r"[0-9]+", name):
         flash("Имя/Фамилия не может содержать цифры", "error")
         return False

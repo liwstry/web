@@ -1,3 +1,15 @@
 2026-04-24 08:24:27 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: search() missing 1 required positional argument: 'string'
 2026-04-26 05:45:19 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: expected string or bytes-like object, got 'EmailSyntaxError'
 2026-04-26 05:52:11 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: expected string or bytes-like object, got 'EmailSyntaxError'
+2026-04-28 13:05:33 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: object of type 'NoneType' has no len()
+2026-04-28 13:09:20 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: 'tuple' object has no attribute 'isspace'
+2026-04-28 14:24:56 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 14:27:59 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 14:28:13 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 14:35:10 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 14:35:21 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 14:37:46 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 14:38:11 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 17:32:48 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 17:33:10 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
+2026-04-28 17:33:15 - ERROR - [logic\pages\auth\auth.py] - Ошибка при получении данных регистрации: Expecting value: line 1 column 1 (char 0)
