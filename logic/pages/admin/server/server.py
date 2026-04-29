@@ -22,7 +22,6 @@ class Server:
         self.server["time_work"] = round((ps.cpu_times().user / 60) / 60, 2)
         self.server["bytes_sent"] = ps.net_io_counters().bytes_sent
         self.server["bytes_recv"] = ps.net_io_counters().bytes_recv
-        return self.server
     
     def get_server_info(self):
         return self.server

@@ -1,4 +1,5 @@
 from flask import render_template
+from flask_login import current_user
 
 from routes.routes_init import Routes
 
@@ -10,7 +11,9 @@ class AdminRoutes(Routes):
         
         @self.app.route("/admin/server")
         def server():
-            return render_template("admin/server.html")
+            if current_user.is_authenticated and current_user.is_admin:
+                return render_template("admin/server.html")
+            return render_template("errors/404.html")
         
         @self.app.route("/admin/users")
         def admin_users():
@@ -31,7 +34,6 @@ class AdminRoutes(Routes):
         @self.app.route("/admin/users/user-remove", methods=["post"])
         def user_remove():
             return self.admin.del_user()
-        
         
         @self.app.route("/admin/add_cars", methods=["get", "post"])
         def add_cars():

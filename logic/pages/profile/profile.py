@@ -45,6 +45,10 @@ class Profile:
             if not valid.email(email):
                 return self.get_data()
             
+            if len(city) >= 100:
+                flash("Город не может содержать более 100 символов", "error")
+                return self.get_data()
+            
             self.log.log("info", "Данные для обновления получены")
         except Exception as e:
             self.log.log("error", f"Ошибка при получении данных: {e}")
@@ -52,18 +56,18 @@ class Profile:
             return self.get_data()
         
         if email != current_user.email and check_user(email):
-            flash("Email занят", "warning")
+            flash("Email занят", "error")
             return self.get_data()
         
-        if not name or not last_name or not email:
-            flash("Вы оставили поле пустым", "warning")
+        if not name or not last_name or not email or not city:
+            flash("Вы оставили поле пустым", "error")
             return self.get_data()
         
         if (
             name == current_user.name and last_name == current_user.last_name
             and email == current_user.email and city == current_user.city
             ):
-            flash("Вы не изменили данные", "warning")
+            flash("Вы не изменили данные", "error")
             return self.get_data()
         
         try:
