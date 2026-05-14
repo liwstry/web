@@ -7,7 +7,7 @@ from eng_to_ru import Translator
 
 from logs.setup_logs import LogSetup
 
-from cache.caching import Cache
+from cache.caching import CacheConst
 
 log = LogSetup(__name__)
 
@@ -61,7 +61,7 @@ def email(email):
     except EmailNotValidError as e:
         err = str(e)
         
-        cache = Cache()
+        cache = CacheConst()
         cache.load_cache()
         
         if err in cache.cache:
@@ -69,7 +69,7 @@ def email(email):
         else:
             translator = Translator()
             try:
-                translat_text = translator.run(str(e))
+                translat_text = translator.run(err)
                 cache.add_cache(err, translat_text)
                 cache.save_cache()
             

@@ -1,0 +1,29 @@
+2026-05-12 07:44:49 - ERROR - [cache\caching.py] - Ошибка при чтении кэша: Expecting value: line 1 column 1 (char 0)
+2026-05-12 07:46:32 - ERROR - [cache\caching.py] - Ошибка при чтении кэша: Expecting value: line 1 column 1 (char 0)
+2026-05-14 15:23:44 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: Timeout connecting to server
+2026-05-14 15:35:33 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: Timeout connecting to server
+2026-05-14 15:44:10 - ERROR - [cache\caching.py] - Сервер Redis не запущен
+2026-05-14 15:46:20 - ERROR - [cache\caching.py] - Сервер Redis не запущен
+2026-05-14 15:50:19 - ERROR - [cache\caching.py] - Ошибка при проверке запущен состояния сервера Redis: timed out
+2026-05-14 15:50:35 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2026-05-14 15:51:06 - ERROR - [cache\caching.py] - Сервер Redis не запущен
+2026-05-14 15:54:17 - ERROR - [cache\caching.py] - Redis запущен
+2026-05-14 15:57:58 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: value is not an integer or out of range
+2026-05-14 15:58:07 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: value is not an integer or out of range
+2026-05-14 15:58:07 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 15:58:19 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: value is not an integer or out of range
+2026-05-14 15:58:19 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 15:58:42 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.
+2026-05-14 15:58:42 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 15:58:51 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:00:03 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:00:11 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: value is not an integer or out of range
+2026-05-14 16:00:11 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:00:25 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:00:30 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:00:46 - ERROR - [cache\caching.py] - Ошибка при записи в кэш: value is not an integer or out of range
+2026-05-14 16:00:46 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:02:27 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:09:47 - ERROR - [cache\caching.py] - Ошибка при чтении из кэша: the JSON object must be str, bytes or bytearray, not NoneType
+2026-05-14 16:25:41 - ERROR - [cache\caching.py] - Redis запущен
+2026-05-14 16:27:34 - ERROR - [cache\caching.py] - Redis запущен

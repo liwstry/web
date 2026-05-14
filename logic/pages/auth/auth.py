@@ -19,11 +19,11 @@ class Auth:
     def signup(self):
         if rq.method == "POST":
             try:
-                name = rq.form.get("name")
-                last_name = rq.form.get("last_name")
+                name = rq.form.get("name").capitalize()
+                last_name = rq.form.get("last_name").capitalize()
                 email = rq.form.get("email")
                 
-                city = rq.form.get("city")
+                city = rq.form.get("city").title()
                 city = "Москва" if not city else city
                 
                 password = rq.form.get("password")
@@ -60,10 +60,10 @@ class Auth:
             
             try:
                 user_add = Users(
-                    name=name.capitalize(),
-                    last_name=last_name.capitalize(),
+                    name=name,
+                    last_name=last_name,
                     email=email,
-                    city=city.capitalize(),
+                    city=city,
                     password=create_hash_password(password)
                 )
                 db.session.add(user_add)

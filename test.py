@@ -79,5 +79,39 @@
 # except EmailNotValidError as e:
 #     print("Invalid email:", translator.run(str(e)))
 
-a = ["a" for _ in range(100)]
-print(a)
+# a = ["a" for _ in range(100)]
+# print(a)
+
+
+
+from redis import Redis
+import json
+import subprocess as sp
+from pathlib import Path
+
+
+# redis = Redis(host="127.0.0.1", port=6379)
+
+# if not Path("C:/Redis").is_dir():
+#     print("Redis не обнаружен по адресу: C:/Redis")
+
+# try:
+#     redis.ping()
+# except Exception:
+#     sp.Popen(["start", "cmd", "/k", "redis.cmd"], shell=True)
+
+# data = {
+#     "user": "Alex",
+#     "settings": {"theme": "dark", "lang": "ru"}
+# }
+# redis.set("user:1", json.dumps(data))
+
+# cached_data = redis.get("user:1")
+# print(json.loads(cached_data))
+
+from cache.caching import Cache
+
+cache = Cache()
+cache.add_cache("Alex", data={"settings": {"name": "Alex", "lastname": "Admin"}})
+print(cache.get_cache("Alex"))
+# cache.del_cache("Alex")

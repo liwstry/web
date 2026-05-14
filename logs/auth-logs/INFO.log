@@ -295,3 +295,21 @@
 2026-04-29 13:03:17 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
 2026-04-29 13:03:29 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
 2026-04-29 13:03:29 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-29 13:48:27 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-29 13:48:28 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-29 14:26:48 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-29 14:26:49 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-04-29 14:29:26 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-04-29 14:29:27 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-05-12 03:15:19 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-05-12 03:15:20 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-05-12 03:15:26 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-05-12 03:15:27 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-05-12 07:44:48 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-05-12 07:44:49 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc7777@gmail.com) зарегистрирован
+2026-05-12 07:44:57 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-05-12 07:44:58 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc7777@gmail.com) авторизован
+2026-05-12 07:45:45 - INFO - [logic\pages\auth\auth.py] - Данные для аунтентификации получены
+2026-05-12 07:45:46 - INFO - [logic\pages\auth\auth.py] - Пользователь (liwstry5@gmail.com) авторизован
+2026-05-12 07:46:31 - INFO - [logic\pages\auth\auth.py] - Данные при регистрации получены
+2026-05-12 07:46:32 - INFO - [logic\pages\auth\auth.py] - Пользователь (abc777@gmail.com) зарегистрирован
